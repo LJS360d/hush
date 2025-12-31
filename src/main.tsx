@@ -1,12 +1,15 @@
 import { RouterProvider, createRouter } from "@tanstack/solid-router";
 import { render } from "solid-js/web";
 
+import { collections } from "@/content/collections";
 import { routeTree } from "@/routeTree.gen";
 import "@/styles.css";
-import { collections } from "@/content/collections";
+
+const basepath = import.meta.env.BASE_URL;
 
 const router = createRouter({
   routeTree,
+  basepath: basepath,
   defaultPreload: "intent",
   scrollRestoration: true,
   defaultPreloadStaleTime: 0,
