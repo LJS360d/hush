@@ -1,0 +1,147 @@
+{
+  "home": {
+    "title": {
+      "ready": "Ready to",
+      "slam": "Slam?"
+    },
+    "subtitle": "Pick a legendary nickname and enter the arena.",
+    "profile": {
+      "label": "PLAYER PROFILE"
+    },
+    "input": {
+      "nickname": "Your Nickname",
+      "placeholder": "Enter a nickname"
+    },
+    "action": {
+      "start": "START"
+    },
+    "badge": {
+      "host": "HOST",
+      "room": "ROOM"
+    },
+    "carousel": {
+      "quick-play": {
+        "title": "Quick Play",
+        "desc": "Jump into a game instantly with players worldwide."
+      },
+      "custom-rules": {
+        "title": "Custom Rules",
+        "desc": "Create private rooms and set your own win conditions."
+      },
+      "unlock-avatars": {
+        "title": "Unlock Avatars",
+        "desc": "The more you play, the more unique styles you get."
+      },
+      "ranked-mode": {
+        "title": "Ranked Mode",
+        "desc": "Climb the leaderboard and become a top slammer."
+      },
+      "community-hub": {
+        "title": "Community Hub",
+        "desc": "Join our discord to suggest new features and updates."
+      },
+      "global-chat": {
+        "title": "Global Chat",
+        "desc": "Communicate with teammates using our built-in system."
+      }
+    }
+  },
+  "room": {
+    "title": "Lobby",
+    "code": {
+      "label": "Room Code"
+    },
+    "action": {
+      "copy-link": "Copy Invite",
+      "copied": "Copied!",
+      "start": "START GAME"
+    },
+    "alert": {
+      "need-players": "Need at least 3 players to start the game. Share the room code!",
+      "cards-failed": "Failed to load card pack. Please refresh the page."
+    },
+    "badge": {
+      "host": "HOST",
+      "you": "You"
+    },
+    "slot": {
+      "waiting": "Waiting..."
+    },
+    "info": {
+      "join-anytime": "Players can join anytime during the game. Disconnected players have 2 minutes to reconnect."
+    },
+    "settings": {
+      "title": "Room Settings",
+      "rounds": "Rounds",
+      "card-pack": "Cards Pack",
+      "timer": "Time Per Round",
+      "max-players": "Max Players",
+      "modifiers": "Game Modifiers",
+      "modifiers-desc": "Add fun challenges each round",
+      "host-only": "Only the host can change game settings",
+      "min-players": "Minimum: 3 players",
+      "sync-info": "Changes sync automatically to all players",
+      "rounds-option": "{{ count }} Rounds",
+      "timer-option": "{{ seconds }} Seconds",
+      "guest-fallback": "Waiting for host..."
+    },
+    "create": {
+      "title": "Create room",
+      "code": "Room code",
+      "generate-code": "Generate a new room code"
+    },
+    "lobby": {
+      "copy-invite": "Invite",
+      "copy-invite-tooltip": "Link Copied!"
+    }
+  },
+  "game": {
+    "leaderboard": "Leaderboard",
+    "round": "Round",
+    "paused": {
+      "title": "GAME PAUSED",
+      "message": "Waiting for more players to join..."
+    },
+    "role": {
+      "describing": "Describing",
+      "checking": "Checking",
+      "describer": "Describer",
+      "checker": "Checker"
+    },
+    "guess": {
+      "title": "GUESS THE WORD!",
+      "subtitle": "Watch the chat for revealed clues.",
+      "success": "You guessed it! +1 point"
+    },
+    "word": {
+      "label": "THE WORD IS:"
+    },
+    "action": {
+      "skip": "SKIP CARD (1s CD)",
+      "force-skip": "FORCE SKIP - BANNED WORD (3s CD)"
+    },
+    "chat": {
+      "placeholder": "Type your guess...",
+      "guessed": "You already guessed it!",
+      "describing": "You're describing!",
+      "checking": "You're checking!"
+    }
+  },
+  "meta": {
+    "title": "Hush",
+    "description": "A game about banned words"
+  },
+  "themes": {
+    "dark": "Dark themes",
+    "light": "Light themes",
+    "extra": "Extra themes"
+  },
+  "header": {
+    "right": "P2P Encrypted"
+  },
+  "footer": {
+    "copyright": "© {year} Hush",
+    "unaffiliation": "Not affiliated with Hasbro or Taboo"
+  },
+  "you": "You"
+}

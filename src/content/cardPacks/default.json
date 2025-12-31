@@ -1,0 +1,122 @@
+[
+  {
+    "word": "Pizza",
+    "bans": ["Cheese", "Italy", "Tomato", "Slice", "Delivery"]
+  },
+  {
+    "word": "Coffee",
+    "bans": ["Caffeine", "Bean", "Morning", "Cup", "Espresso"]
+  },
+  {
+    "word": "Guitar",
+    "bans": ["String", "Music", "Instrument", "Rock", "Acoustic"]
+  },
+  {
+    "word": "Rainbow",
+    "bans": ["Color", "Sky", "Rain", "Arc", "Spectrum"]
+  },
+  {
+    "word": "Detective",
+    "bans": ["Mystery", "Clue", "Crime", "Investigate", "Police"]
+  },
+  {
+    "word": "Marathon",
+    "bans": ["Run", "Race", "Distance", "26", "Miles"]
+  },
+  {
+    "word": "Volcano",
+    "bans": ["Lava", "Eruption", "Mountain", "Hot", "Magma"]
+  },
+  {
+    "word": "Spaceship",
+    "bans": ["Rocket", "Space", "Astronaut", "NASA", "Fly"]
+  },
+  {
+    "word": "Vampire",
+    "bans": ["Blood", "Dracula", "Fangs", "Night", "Bite"]
+  },
+  {
+    "word": "Smartphone",
+    "bans": ["Phone", "App", "Screen", "Touch", "Call"]
+  },
+  {
+    "word": "Watermelon",
+    "bans": ["Fruit", "Summer", "Seed", "Green", "Red"]
+  },
+  {
+    "word": "Rollercoaster",
+    "bans": ["Ride", "Park", "Fast", "Track", "Thrill"]
+  },
+  {
+    "word": "Penguin",
+    "bans": ["Bird", "Antarctica", "Ice", "Waddle", "Black"]
+  },
+  {
+    "word": "Bicycle",
+    "bans": ["Wheel", "Pedal", "Ride", "Bike", "Chain"]
+  },
+  {
+    "word": "Thunderstorm",
+    "bans": ["Lightning", "Thunder", "Rain", "Storm", "Cloud"]
+  },
+  {
+    "word": "Wizard",
+    "bans": ["Magic", "Wand", "Spell", "Hat", "Hogwarts"]
+  },
+  {
+    "word": "Sushi",
+    "bans": ["Fish", "Rice", "Japan", "Raw", "Roll"]
+  },
+  {
+    "word": "Telescope",
+    "bans": ["Star", "Astronomy", "Look", "Sky", "Lens"]
+  },
+  {
+    "word": "Dinosaur",
+    "bans": ["Extinct", "Prehistoric", "Fossil", "Rex", "Jurassic"]
+  },
+  {
+    "word": "Password",
+    "bans": ["Login", "Secret", "Code", "Security", "Computer"]
+  },
+  {
+    "word": "Sunglasses",
+    "bans": ["Eye", "Sun", "Shade", "Cool", "Protect"]
+  },
+  {
+    "word": "Pyramid",
+    "bans": ["Egypt", "Triangle", "Pharaoh", "Ancient", "Stone"]
+  },
+  {
+    "word": "Superhero",
+    "bans": ["Cape", "Power", "Marvel", "Save", "Villain"]
+  },
+  {
+    "word": "Chocolate",
+    "bans": ["Sweet", "Brown", "Candy", "Cocoa", "Dessert"]
+  },
+  {
+    "word": "Helicopter",
+    "bans": ["Fly", "Rotor", "Blade", "Aircraft", "Hover"]
+  },
+  {
+    "word": "Orchestra",
+    "bans": ["Music", "Symphony", "Conductor", "Instrument", "Classical"]
+  },
+  {
+    "word": "Kangaroo",
+    "bans": ["Australia", "Jump", "Pouch", "Hop", "Marsupial"]
+  },
+  {
+    "word": "Lighthouse",
+    "bans": ["Light", "Sea", "Coast", "Beacon", "Tower"]
+  },
+  {
+    "word": "Magician",
+    "bans": ["Trick", "Magic", "Illusion", "Card", "Disappear"]
+  },
+  {
+    "word": "Skyscraper",
+    "bans": ["Building", "Tall", "City", "Floor", "High"]
+  }
+]

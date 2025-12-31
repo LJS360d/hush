@@ -1,0 +1,43 @@
+{
+  "name": "hush",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.27.0",
+  "engineStrict": false,
+  "engines": {
+    "node": "25.2.1"
+  },
+  "scripts": {
+    "dev": "vite --port 3000",
+    "start": "vite --port 3000",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@nanostores/persistent": "^1.2.0",
+    "@nanostores/solid": "^1.1.1",
+    "@solid-primitives/context": "^0.3.2",
+    "@solid-primitives/i18n": "^2.2.1",
+    "@tanstack/router-plugin": "^1.145.2",
+    "@tanstack/solid-router": "^1.144.0",
+    "@tanstack/solid-router-devtools": "^1.144.0",
+    "nanostores": "^1.1.0",
+    "peerjs": "^1.5.5",
+    "solid-icons": "^1.1.0",
+    "solid-js": "^1.9.10",
+    "zod": "^4.2.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "@tailwindcss/typography": "^0.5.19",
+    "@tailwindcss/vite": "^4.1.18",
+    "@types/node": "^25.0.3",
+    "daisyui": "^5.5.14",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.1",
+    "vite-plugin-mkcert": "^1.17.9",
+    "vite-plugin-solid": "^2.11.10"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "home": {
+    "title": {
+      "ready": "Pronto a",
+      "slam": "Schiacciare?"
+    },
+    "subtitle": "Scegli un soprannome leggendario ed entra nell'arena.",
+    "profile": {
+      "label": "PROFILO GIOCATORE"
+    },
+    "input": {
+      "nickname": "Tuo Soprannome",
+      "placeholder": "Inserisci un soprannome"
+    },
+    "action": {
+      "start": "INIZIA"
+    },
+    "badge": {
+      "host": "HOST",
+      "room": "STANZA"
+    },
+    "carousel": {
+      "quick-play": {
+        "title": "Partita Rapida",
+        "desc": "Entra istantaneamente in una partita con giocatori da tutto il mondo."
+      },
+      "custom-rules": {
+        "title": "Regole Personalizzate",
+        "desc": "Crea stanze private e imposta le tue condizioni di vittoria."
+      },
+      "unlock-avatars": {
+        "title": "Sblocca Avatar",
+        "desc": "Più giochi, più stili unici otterrai."
+      },
+      "ranked-mode": {
+        "title": "Modalità Classificata",
+        "desc": "Scala la classifica e diventa il miglior slammer."
+      },
+      "community-hub": {
+        "title": "Community Hub",
+        "desc": "Unisciti al nostro discord per suggerire nuove funzionalità e aggiornamenti."
+      },
+      "global-chat": {
+        "title": "Chat Globale",
+        "desc": "Comunica con i tuoi compagni di squadra usando il nostro sistema integrato."
+      }
+    }
+  },
+  "room": {
+    "title": "Lobby",
+    "code": {
+      "label": "Codice Stanza"
+    },
+    "action": {
+      "copy-link": "Copia Invito",
+      "copied": "Copiato!",
+      "start": "INIZIA PARTITA"
+    },
+    "alert": {
+      "need-players": "Servono almeno 3 giocatori per iniziare la partita. Condividi il codice della stanza!",
+      "cards-failed": "Caricamento del pacchetto di carte fallito. Per favore ricarica la pagina."
+    },
+    "badge": {
+      "host": "HOST",
+      "you": "Tu"
+    },
+    "slot": {
+      "waiting": "In attesa..."
+    },
+    "info": {
+      "join-anytime": "I giocatori possono unirsi in qualsiasi momento durante la partita. I giocatori disconnessi hanno 2 minuti per ricollegarsi."
+    },
+    "settings": {
+      "title": "Impostazioni Stanza",
+      "rounds": "Round",
+      "timer": "Tempo per Round",
+      "card-pack": "Pacchetto di carte",
+      "max-players": "Max Giocatori",
+      "modifiers": "Modificatori",
+      "modifiers-desc": "Modifica il gioco ad ogni round",
+      "host-only": "Solo l'host può modificare le impostazioni di gioco",
+      "min-players": "Minimo: 3 giocatori",
+      "sync-info": "Le modifiche si sincronizzano automaticamente per tutti i giocatori",
+      "rounds-option": "{{ count }} Round",
+      "timer-option": "{{ seconds }} Secondi",
+      "guest-fallback": "In attesa dell'host..."
+    },
+    "create": {
+      "title": "Crea stanza",
+      "code": "Codice stanza",
+      "generate-code": "Genera un nuovo codice stanza"
+    },
+    "lobby": {
+      "copy-invite": "Invita",
+      "copy-invite-tooltip": "Link Copiato!"
+    }
+  },
+  "game": {
+    "leaderboard": "Classifica",
+    "round": "Round",
+    "paused": {
+      "title": "GIOCO IN PAUSA",
+      "message": "In attesa di altri giocatori..."
+    },
+    "role": {
+      "describing": "Descrizione",
+      "checking": "Controllo",
+      "describer": "Descrittore",
+      "checker": "Controllore"
+    },
+    "guess": {
+      "title": "INDOVINA LA PAROLA!",
+      "subtitle": "Guarda la chat per gli indizi rivelati.",
+      "success": "Hai indovinato! +1 punto"
+    },
+    "word": {
+      "label": "LA PAROLA È:"
+    },
+    "action": {
+      "skip": "SALTA CARTA (1s CD)",
+      "force-skip": "SALTO FORZATO - PAROLA VIETATA (3s CD)"
+    },
+    "chat": {
+      "placeholder": "Scrivi la tua risposta...",
+      "guessed": "L'hai già indovinata!",
+      "describing": "Stai descrivendo!",
+      "checking": "Stai controllando!"
+    }
+  },
+  "meta": {
+    "title": "Hush",
+    "description": "Un gioco sulle parole vietate"
+  },
+  "themes": {
+    "dark": "Temi scuri",
+    "light": "Temi chiari",
+    "extra": "Temi extra"
+  },
+  "header": {
+    "right": "Criptato P2P"
+  },
+  "footer": {
+    "copyright": "© {{ year }} Hush",
+    "unaffiliation": "Non affiliato a Hasbro o Taboo"
+  },
+  "you": "Tu"
+}

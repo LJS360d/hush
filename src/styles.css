@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@plugin "daisyui" {
+    themes: all;
+    root: ":root";
+    logs: false;
+}
+
+@layer base {
+    body {
+        @apply antialiased m-0 selection:bg-primary selection:text-white;
+    }
+}
+
+@utility glass {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
