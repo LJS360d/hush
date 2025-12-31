@@ -1,3 +1,8 @@
+import P2PTroubleshoot from "@/components/troubleshoot/P2PTroubleshoot";
+import { useTranslate } from "@/i18n/useTranslate";
+import { $connectionError } from "@/stores/peer.store"; // Assuming it was added here
+import { useStore } from "@nanostores/solid";
+import { TbPlugConnectedX } from "solid-icons/tb";
 import { onMount, type ParentComponent } from "solid-js";
 
 const THEMES = [
@@ -53,19 +58,37 @@ const THEMES = [
 ];
 
 const MainLayout: ParentComponent = (props) => {
+  const t = useTranslate();
   let selectRef: HTMLSelectElement | undefined;
+  let modalRef: HTMLDialogElement | undefined;
+
+  const connectionError = useStore($connectionError);
 
   onMount(() => {
     // Initialize theme from localStorage
     const savedTheme = localStorage.getItem("daisyui-theme") ?? "dark";
     document.documentElement.setAttribute("data-theme", savedTheme);
     if (selectRef) selectRef.value = savedTheme;
+
+    // Listen for connection errors to show the modal
+    const unsubscribe = $connectionError.subscribe((error) => {
+      if (error && modalRef) {
+        modalRef.showModal();
+      }
+    });
+
+    return unsubscribe;
   });
 
   const handleThemeChange = (e: Event) => {
     const theme = (e.target as HTMLSelectElement).value;
     localStorage.setItem("daisyui-theme", theme);
     document.documentElement.setAttribute("data-theme", theme);
+  };
+
+  const closeTroubleshooter = () => {
+    $connectionError.set(null);
+    if (modalRef) modalRef.close();
   };
 
   return (
@@ -80,6 +103,14 @@ const MainLayout: ParentComponent = (props) => {
           </a>
 
           <div class="flex gap-4 items-center">
+            <span
+              class="hover:underline text-sm cursor-pointer text-zinc-500"
+              onClick={() => {
+                modalRef?.showModal();
+              }}
+            >
+              Problemi di connessione?
+            </span>
             <select
               ref={selectRef}
               onChange={handleThemeChange}
@@ -100,6 +131,55 @@ const MainLayout: ParentComponent = (props) => {
       <main class="grow flex flex-col max-w-8xl mx-auto w-full my-8 px-4">
         {props.children}
       </main>
+
+      {/* Global Connection Troubleshooting Modal */}
+      <dialog ref={modalRef} class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box max-w-4xl p-0 overflow-hidden border border-white/10 shadow-2xl">
+          <div class="bg-error text-error-content p-6 flex items-center gap-4 relative">
+            <TbPlugConnectedX size={40} />
+            <div>
+              <h3 class="text-2xl font-black uppercase italic leading-none">
+                {t("troubleshoot.title")}
+              </h3>
+              <p class="text-sm font-bold opacity-80 mt-1">
+                {connectionError() === "nat_failure"
+                  ? t("troubleshoot.detection.nat_fail")
+                  : t("troubleshoot.subtitle")}
+              </p>
+            </div>
+            <div class="absolute right-2 top-0">
+              <button
+                class="text-3xl cursor-pointer hover:font-bold transition-all"
+                onClick={closeTroubleshooter}
+              >
+                &times;
+              </button>
+            </div>
+          </div>
+
+          <div class="p-6 bg-base-100">
+            {/* P2PTroubleshoot component: Ensure the component you generated
+              earlier is exported as default in P2PTroubleshoot.tsx
+            */}
+            <P2PTroubleshoot />
+
+            <div class="modal-action mt-8">
+              <button
+                class="btn btn-outline font-bold"
+                onClick={closeTroubleshooter}
+              >
+                {t("common.close")}
+              </button>
+            </div>
+          </div>
+        </div>
+        <form
+          method="dialog"
+          class="modal-backdrop bg-black/60 backdrop-blur-sm"
+        >
+          <button onClick={closeTroubleshooter} />
+        </form>
+      </dialog>
 
       <footer class="bg-base-200 border-t border-zinc-900 p-6 text-center text-zinc-600 text-sm">
         <p>© {new Date().getFullYear()} Hush. All rights reserved.</p>

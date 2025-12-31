@@ -143,5 +143,42 @@
     "copyright": "© {year} Hush",
     "unaffiliation": "Not affiliated with Hasbro or Taboo"
   },
+  "troubleshoot": {
+    "title": "Connection Issues?",
+    "subtitle": "Peer-to-Peer (WebRTC) troubleshooting guide",
+    "detection": {
+      "nat_fail": "NAT Issue Detected: We can't establish a direct connection between you and the host.",
+      "firewall": "Your network seems to be blocking P2P traffic. Are you on a corporate or school network?",
+      "action": "Find out how to fix it"
+    },
+    "steps": {
+      "vpn": {
+        "title": "VPN & Firewalls",
+        "desc": "Corporate networks, school Wi-Fi, or active VPNs often block WebRTC traffic. Try disabling your VPN or switching to a mobile hotspot."
+      },
+      "browser": {
+        "title": "Browser Compatibility",
+        "desc": "Chrome and Edge offer the best stability for WebRTC. Ensure your browser is up to date."
+      },
+      "nat": {
+        "title": "NAT Type Issues",
+        "desc": "If both players are behind 'Symmetric NATs', a direct connection might fail. Switching networks usually fixes this."
+      },
+      "refresh": {
+        "title": "The 'Classic' Refresh",
+        "desc": "Sometimes PeerJS IDs get desynced. A quick refresh for both the host and guests is often the fastest fix."
+      }
+    },
+    "tip": {
+      "label": "Pro Tip",
+      "content": "If you are stuck on 'Waiting for Host' indefinitely, ask the host to send a fresh invite link."
+    },
+    "action": {
+      "test": "Test my WebRTC"
+    }
+  },
+  "common": {
+    "close": "Close"
+  },
   "you": "You"
 }

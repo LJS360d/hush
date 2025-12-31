@@ -143,5 +143,42 @@
     "copyright": "© {{ year }} Hush",
     "unaffiliation": "Non affiliato a Hasbro o Taboo"
   },
+  "troubleshoot": {
+    "title": "Problemi di connessione?",
+    "subtitle": "Guida alla risoluzione dei problemi Peer-to-Peer (WebRTC)",
+    "detection": {
+      "nat_fail": "Rilevato problema NAT: Non riusciamo a stabilire una connessione diretta tra te e l'host.",
+      "firewall": "La tua rete sembra bloccare il traffico P2P. Sei su una rete aziendale o scolastica?",
+      "action": "Scopri come risolvere"
+    },
+    "steps": {
+      "vpn": {
+        "title": "VPN e Firewall",
+        "desc": "Le reti aziendali, scolastiche o le VPN attive spesso bloccano il traffico WebRTC. Prova a disattivare la VPN o a usare l'hotspot mobile."
+      },
+      "browser": {
+        "title": "Compatibilità Browser",
+        "desc": "Chrome ed Edge offrono la migliore stabilità per WebRTC. Assicurati che il tuo browser sia aggiornato all'ultima versione."
+      },
+      "nat": {
+        "title": "Problemi di tipo NAT",
+        "desc": "Se entrambi i giocatori sono dietro 'NAT simmetrici', la connessione diretta fallirà. Cambiare rete solitamente risolve il problema."
+      },
+      "refresh": {
+        "title": "Il 'Classico' Refresh",
+        "desc": "A volte gli ID di PeerJS si desincronizzano. Un semplice refresh della pagina per l'host e gli ospiti è spesso la soluzione più rapida."
+      }
+    },
+    "tip": {
+      "label": "Consiglio",
+      "content": "Se rimani su 'In attesa dell'host' all'infinito, chiedi all'host di inviarti un nuovo link di invito."
+    },
+    "action": {
+      "test": "Testa il mio WebRTC"
+    }
+  },
+  "common": {
+    "close": "Chiudi"
+  },
   "you": "Tu"
 }

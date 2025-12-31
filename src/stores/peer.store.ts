@@ -86,6 +86,7 @@ export const $settings = persistentMap<RoomSettings>("room-settings", {
 });
 
 export const $connections = atom<DataConnection[]>([]);
+export const $connectionError = atom<string | null>(null);
 export const $players = atom<Player[]>([]);
 export const $isHost = atom<boolean>(true);
 export const $chatMessages = atom<ChatMessage[]>([]);
@@ -135,7 +136,31 @@ export function initPeer(roomId?: string): Promise<Peer> {
       console.log("Generated new peer ID:", peerId);
     }
 
-    const newPeer = new Peer(peerId);
+    const newPeer = new Peer(peerId, {
+      config: {
+        iceServers: [
+          // STUN servers
+          { urls: "stun:stun.l.google.com:19302" },
+          { urls: "stun:stun1.l.google.com:19302" },
+          { urls: "stun:stun2.l.google.com:19302" },
+          { urls: "stun:global.stun.twilio.com:3478" },
+
+          // TURN servers
+          {
+            urls: "turn:openrelay.metered.ca:80",
+            username: "openrelayproject",
+            password: "openrelayproject",
+          },
+          {
+            urls: "turn:openrelay.metered.ca:443",
+            username: "openrelayproject",
+            password: "openrelayproject",
+          },
+        ],
+        // Forces the browser to gather all potential connection paths quickly
+        iceTransportPolicy: "all",
+      },
+    });
 
     newPeer.on("open", (id) => {
       console.log("Peer opened with ID:", id);
@@ -741,6 +766,16 @@ export function managePeerDataConnection(connection: DataConnection) {
   connection.on("open", () => {
     console.log("Connection opened with:", connection.peer);
     $connections.set([...$connections.get(), connection]);
+
+    const pc = (connection as any)._dc?.peerConnection;
+    if (!pc) return;
+    pc.oniceconnectionstatechange = () => {
+      if (pc.iceConnectionState === "failed") {
+        console.error("WebRTC Path Discovery Failed (Symmetric NAT/Firewall)");
+        // Trigger a global signal for your UI
+        $connectionError.set("nat_failure");
+      }
+    };
   });
 
   connection.on("close", () => {
