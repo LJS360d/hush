@@ -60,7 +60,7 @@ export default function RoomView(props: {
   );
 
   const copyRoomLink = async () => {
-    const url = `${window.location.origin}${import.meta.env.BASE_URL}/?code=${roomId()}`;
+    const url = `${window.location.origin}${import.meta.env.BASE_URL}?code=${roomId()}`;
     await copyToClipboard(url);
     setShowCopiedTooltip(true);
     setTimeout(() => setShowCopiedTooltip(false), 2000);
