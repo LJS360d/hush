@@ -12,7 +12,6 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as RoomIndexRouteImport } from './routes/room/index'
 import { Route as GameIndexRouteImport } from './routes/game/index'
-import { Route as RoomRouteRouteImport } from './routes/room/Route'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -29,42 +28,33 @@ const GameIndexRoute = GameIndexRouteImport.update({
   path: '/game/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const RoomRouteRoute = RoomRouteRouteImport.update({
-  id: '/room/Route',
-  path: '/room/Route',
-  getParentRoute: () => rootRouteImport,
-} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/room/Route': typeof RoomRouteRoute
   '/game': typeof GameIndexRoute
   '/room': typeof RoomIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/room/Route': typeof RoomRouteRoute
   '/game': typeof GameIndexRoute
   '/room': typeof RoomIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/room/Route': typeof RoomRouteRoute
   '/game/': typeof GameIndexRoute
   '/room/': typeof RoomIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/room/Route' | '/game' | '/room'
+  fullPaths: '/' | '/game' | '/room'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/room/Route' | '/game' | '/room'
-  id: '__root__' | '/' | '/room/Route' | '/game/' | '/room/'
+  to: '/' | '/game' | '/room'
+  id: '__root__' | '/' | '/game/' | '/room/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  RoomRouteRoute: typeof RoomRouteRoute
   GameIndexRoute: typeof GameIndexRoute
   RoomIndexRoute: typeof RoomIndexRoute
 }
@@ -92,19 +82,11 @@ declare module '@tanstack/solid-router' {
       preLoaderRoute: typeof GameIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/room/Route': {
-      id: '/room/Route'
-      path: '/room/Route'
-      fullPath: '/room/Route'
-      preLoaderRoute: typeof RoomRouteRouteImport
-      parentRoute: typeof rootRouteImport
-    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  RoomRouteRoute: RoomRouteRoute,
   GameIndexRoute: GameIndexRoute,
   RoomIndexRoute: RoomIndexRoute,
 }

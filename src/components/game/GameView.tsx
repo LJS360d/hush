@@ -69,7 +69,13 @@ export default function GameView() {
       if (s.status === "lobby") {
         const params = new URLSearchParams(window.location.search);
         const code = params.get("code");
-        navigate(`/room/?code=${code}`);
+        navigate({
+          to: "/room",
+          search: (prev) => ({
+            ...prev,
+            code,
+          }),
+        });
       }
     });
 

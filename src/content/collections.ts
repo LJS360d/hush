@@ -23,10 +23,7 @@ export const collections = {
       eager: true,
     }),
     schema: z.array(HushCardSchema),
-    transform: (data, id) => ({
-      id,
-      data,
-    }),
+    transform: (data, id, lang) => ({ id, lang, data }),
   }),
 
   gameModifiers: defineCollection({

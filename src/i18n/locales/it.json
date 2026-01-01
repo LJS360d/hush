@@ -74,7 +74,7 @@
       "title": "Impostazioni Stanza",
       "rounds": "Round",
       "timer": "Tempo per Round",
-      "card-pack": "Pacchetto di carte",
+      "card-packs": "Pacchetti di carte",
       "max-players": "Max Giocatori",
       "modifiers": "Modificatori",
       "modifiers-desc": "Modifica il gioco ad ogni round",
@@ -83,7 +83,19 @@
       "sync-info": "Le modifiche si sincronizzano automaticamente per tutti i giocatori",
       "rounds-option": "{{ count }} Round",
       "timer-option": "{{ seconds }} Secondi",
-      "guest-fallback": "In attesa dell'host..."
+      "guest-fallback": "In attesa dell'host...",
+      "card-packs-select-done": "Fatto",
+      "packs": {
+        "animals": "Animali",
+        "cities": "Città",
+        "countries": "Paesi",
+        "food": "Cibo",
+        "movies": "Film",
+        "sports": "Sport",
+        "music": "Musica",
+        "objects": "Oggetti",
+        "custom": "Personalizzato"
+      }
     },
     "create": {
       "title": "Crea stanza",
@@ -178,7 +190,12 @@
     }
   },
   "common": {
-    "close": "Chiudi"
+    "cards": "carte",
+    "packs": "pacchetti",
+    "close": "Chiudi",
+    "all": "Tutti",
+    "none": "Nessuno",
+    "random": "Casuale"
   },
   "you": "Tu"
 }

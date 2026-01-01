@@ -1,0 +1,137 @@
+[
+  {
+    "word": "Leone",
+    "bans": [
+      "Re",
+      "Giungla",
+      "Felino",
+      "Criniera"
+    ]
+  },
+  {
+    "word": "Elefante",
+    "bans": [
+      "Proboscide",
+      "Grigio",
+      "Zanne",
+      "Orecchie"
+    ]
+  },
+  {
+    "word": "Delfino",
+    "bans": [
+      "Mare",
+      "Intelligente",
+      "Pinna",
+      "Salto"
+    ]
+  },
+  {
+    "word": "Pinguino",
+    "bans": [
+      "Freddo",
+      "Polo",
+      "Uccello",
+      "Ghiaccio"
+    ]
+  },
+  {
+    "word": "Giraffa",
+    "bans": [
+      "Collo",
+      "Alto",
+      "Macchie",
+      "Savana"
+    ]
+  },
+  {
+    "word": "Canguro",
+    "bans": [
+      "Marsupio",
+      "Salto",
+      "Australia",
+      "Coda"
+    ]
+  },
+  {
+    "word": "Squalo",
+    "bans": [
+      "Denti",
+      "Oceano",
+      "Pericoloso",
+      "Pinna"
+    ]
+  },
+  {
+    "word": "Farfalla",
+    "bans": [
+      "Ali",
+      "Insetto",
+      "Bruco",
+      "Colorata"
+    ]
+  },
+  {
+    "word": "Gatto",
+    "bans": [
+      "Miao",
+      "Fusa",
+      "Peli",
+      "Domestico"
+    ]
+  },
+  {
+    "word": "Cane",
+    "bans": [
+      "Abbaiare",
+      "Osso",
+      "Guinzaglio",
+      "Fedele"
+    ]
+  },
+  {
+    "word": "Aquila",
+    "bans": [
+      "Volo",
+      "Rapace",
+      "Becco",
+      "Montagna"
+    ]
+  },
+  {
+    "word": "Tartaruga",
+    "bans": [
+      "Lenta",
+      "Guscio",
+      "Rettile",
+      "Mare"
+    ]
+  },
+  {
+    "word": "Tigre",
+    "bans": [
+      "Strisce",
+      "India",
+      "Cacciatore",
+      "Arancione"
+    ]
+  },
+  {
+    "word": "Orso",
+    "bans": [
+      "Letargo",
+      "Miele",
+      "Pelliccia",
+      "Bosco"
+    ]
+  },
+  {
+    "word": "Lupo",
+    "bans": [
+      "Branco",
+      "Luna",
+      "Ululato",
+      "Cappuccetto"
+    ]
+  }
+]

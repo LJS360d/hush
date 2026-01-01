@@ -73,7 +73,7 @@
     "settings": {
       "title": "Room Settings",
       "rounds": "Rounds",
-      "card-pack": "Cards Pack",
+      "card-packs": "Card Packs",
       "timer": "Time Per Round",
       "max-players": "Max Players",
       "modifiers": "Game Modifiers",
@@ -83,7 +83,19 @@
       "sync-info": "Changes sync automatically to all players",
       "rounds-option": "{{ count }} Rounds",
       "timer-option": "{{ seconds }} Seconds",
-      "guest-fallback": "Waiting for host..."
+      "guest-fallback": "Waiting for host...",
+      "card-packs-select-done": "Fatto",
+      "packs": {
+        "animals": "Animals",
+        "cities": "Cities",
+        "countries": "Countries",
+        "food": "Food",
+        "movies": "Movies",
+        "sports": "Sports",
+        "music": "Music",
+        "objects": "Objects",
+        "custom": "Custom"
+      }
     },
     "create": {
       "title": "Create room",
@@ -178,7 +190,12 @@
     }
   },
   "common": {
-    "close": "Close"
+    "cards": "cards",
+    "packs": "packs",
+    "close": "Close",
+    "all": "All",
+    "none": "None",
+    "random": "Random"
   },
   "you": "You"
 }

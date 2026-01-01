@@ -1,0 +1,92 @@
+[
+  {
+    "word": "Roma",
+    "bans": [
+      "Colosseo",
+      "Capitale",
+      "Lazio",
+      "Tevere"
+    ]
+  },
+  {
+    "word": "Parigi",
+    "bans": [
+      "Eiffel",
+      "Francia",
+      "Louvre",
+      "Amore"
+    ]
+  },
+  {
+    "word": "Londra",
+    "bans": [
+      "Big Ben",
+      "Tamigi",
+      "Regina",
+      "Inghilterra"
+    ]
+  },
+  {
+    "word": "Venezia",
+    "bans": [
+      "Gondola",
+      "Canali",
+      "Laguna",
+      "Carnevale"
+    ]
+  },
+  {
+    "word": "New York",
+    "bans": [
+      "Statua",
+      "Libertà",
+      "Manhattan",
+      "Grattacieli"
+    ]
+  },
+  {
+    "word": "Milano",
+    "bans": [
+      "Duomo",
+      "Moda",
+      "Lombardia",
+      "Aperitivo"
+    ]
+  },
+  {
+    "word": "Napoli",
+    "bans": [
+      "Pizza",
+      "Vesuvio",
+      "Campania",
+      "Mare"
+    ]
+  },
+  {
+    "word": "Tokyo",
+    "bans": [
+      "Giappone",
+      "Sushi",
+      "Metropoli",
+      "Tecnologia"
+    ]
+  },
+  {
+    "word": "Firenze",
+    "bans": [
+      "Uffizi",
+      "Ponte Vecchio",
+      "Toscana",
+      "Rinascimento"
+    ]
+  },
+  {
+    "word": "Berlino",
+    "bans": [
+      "Muro",
+      "Germania",
+      "Porta",
+      "Brandeburgo"
+    ]
+  }
+]

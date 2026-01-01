@@ -1,0 +1,92 @@
+[
+  {
+    "word": "Pasta",
+    "bans": [
+      "Sugo",
+      "Spaghetti",
+      "Cucinare",
+      "Italia"
+    ]
+  },
+  {
+    "word": "Gelato",
+    "bans": [
+      "Cono",
+      "Freddo",
+      "Dolce",
+      "Pistacchio"
+    ]
+  },
+  {
+    "word": "Pizza",
+    "bans": [
+      "Margherita",
+      "Forno",
+      "Mozzarella",
+      "Pomodoro"
+    ]
+  },
+  {
+    "word": "Formaggio",
+    "bans": [
+      "Latte",
+      "Topolino",
+      "Stagionato",
+      "Fetta"
+    ]
+  },
+  {
+    "word": "Cioccolato",
+    "bans": [
+      "Fondente",
+      "Nocciole",
+      "Dolce",
+      "Barretta"
+    ]
+  },
+  {
+    "word": "Pane",
+    "bans": [
+      "Forno",
+      "Farina",
+      "Panino",
+      "Lievito"
+    ]
+  },
+  {
+    "word": "Caffè",
+    "bans": [
+      "Espresso",
+      "Moka",
+      "Caffeina",
+      "Tazzina"
+    ]
+  },
+  {
+    "word": "Vino",
+    "bans": [
+      "Uva",
+      "Bicchiere",
+      "Bottiglia",
+      "Alcol"
+    ]
+  },
+  {
+    "word": "Sushi",
+    "bans": [
+      "Pesce",
+      "Riso",
+      "Bacchette",
+      "Giapponese"
+    ]
+  },
+  {
+    "word": "Hamburger",
+    "bans": [
+      "Carne",
+      "Panino",
+      "Ketchup",
+      "America"
+    ]
+  }
+]

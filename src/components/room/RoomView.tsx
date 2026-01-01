@@ -10,10 +10,11 @@ import {
   $settings,
   addChatMessage,
   initPeer,
-  loadCardPack,
+  loadSelectedPacks,
   managePeerDataConnection,
   startGame,
 } from "@/stores/peer.store";
+import { copyToClipboard } from "@/utils/native";
 import { useStore } from "@nanostores/solid";
 import { useNavigate } from "@tanstack/solid-router";
 import { BiSolidRightArrowCircle } from "solid-icons/bi";
@@ -21,6 +22,7 @@ import { CgGhostCharacter } from "solid-icons/cg";
 import { FiLink } from "solid-icons/fi";
 import { TbAlertCircle } from "solid-icons/tb";
 import {
+  createEffect,
   createMemo,
   createSignal,
   For,
@@ -29,13 +31,8 @@ import {
   Show,
 } from "solid-js";
 import RoomSettings from "./RoomSettings";
-import type { GameModifier, HushCard } from "@/content/collections";
-import { copyToClipboard } from "@/utils/native";
 
-export default function RoomView(props: {
-  allPacks: HushCard[];
-  allModifiers: GameModifier[];
-}) {
+export default function RoomView() {
   const t = useTranslate();
   const navigate = useNavigate();
   const [showCopiedTooltip, setShowCopiedTooltip] = createSignal(false);
@@ -68,11 +65,22 @@ export default function RoomView(props: {
 
   const handleStartGame = () => {
     if (!canStart()) return;
-
     if (isHost()) {
       startGame();
     }
   };
+
+  // Re-load cards whenever the host changes packs or language
+  createEffect(() => {
+    if (isHost()) {
+      try {
+        loadSelectedPacks();
+        console.log("Card deck synchronized with selected packs");
+      } catch (error) {
+        console.error("Failed to load selected packs:", error);
+      }
+    }
+  });
 
   onMount(async () => {
     const urlParams = new URLSearchParams(window.location.search);
@@ -88,7 +96,6 @@ export default function RoomView(props: {
       managePeerDataConnection(conn);
 
       conn.on("open", () => {
-        console.log("Connected to host, sending player info");
         conn.send({
           msg: "player-info",
           id: myPeer.id,
@@ -120,26 +127,11 @@ export default function RoomView(props: {
         },
       ]);
 
-      const packName = settings().cardPack || "default";
-      try {
-        const pack = props.allPacks.find((p) => p.id.includes(packName));
-
-        if (pack && pack.data) {
-          const modifierPack = props.allModifiers.find((m) =>
-            m.id.includes("default"),
-          );
-          loadCardPack(pack.data, modifierPack?.data || []);
-          console.log("Card pack loaded successfully");
-        } else {
-          console.error("Card pack not found:", packName);
-        }
-      } catch (error) {
-        console.error("Failed to load card pack:", error);
-      }
+      // Initial load of cards based on default settings
+      loadSelectedPacks();
     }
 
     myPeer.on("connection", (conn) => {
-      console.log("Incoming connection from:", conn.peer);
       managePeerDataConnection(conn);
     });
 
@@ -149,10 +141,7 @@ export default function RoomView(props: {
         const code = params.get("code");
         navigate({
           to: "/game",
-          search: (prev) => ({
-            ...prev,
-            code,
-          }),
+          search: (prev) => ({ ...prev, code }),
         });
       }
     });
@@ -166,10 +155,10 @@ export default function RoomView(props: {
     <div class="flex flex-col items-center p-8 w-full max-w-7xl mx-auto text-slate-900">
       <div class="w-full flex justify-between items-center mb-8 bg-linear-to-r from-primary to-secondary p-6 shadow-2xl rounded-2xl">
         <div>
-          <h2 class="text-2xl font-black italic uppercase tracking-tight">
+          <h2 class="text-2xl font-black italic uppercase tracking-tight text-white">
             {t("room.title")}
           </h2>
-          <p class="text-sm opacity-90 mt-1">
+          <p class="text-sm text-white/90 mt-1">
             {t("room.code.label")}:{" "}
             <span class="font-mono font-black text-lg">
               {roomId() || "..."}
@@ -219,7 +208,7 @@ export default function RoomView(props: {
       </Show>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 w-full">
-        <RoomSettings cardPacks={props.allPacks} />
+        <RoomSettings />
 
         <div class="col-span-2 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
           <For each={activePlayers()}>
@@ -276,10 +265,6 @@ export default function RoomView(props: {
             )}
           </For>
         </div>
-      </div>
-
-      <div class="mt-8 text-center text-sm text-slate-500">
-        <p>{t("room.info.join-anytime")}</p>
       </div>
     </div>
   );

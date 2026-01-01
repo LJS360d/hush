@@ -109,7 +109,7 @@ const MainLayout: ParentComponent = (props) => {
                 modalRef?.showModal();
               }}
             >
-              Problemi di connessione?
+              {t("troubleshoot.title")}
             </span>
             <select
               ref={selectRef}

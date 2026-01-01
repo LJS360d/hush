@@ -1,0 +1,92 @@
+[
+  {
+    "word": "Telefono",
+    "bans": [
+      "Chiamare",
+      "Cellulare",
+      "Messaggio",
+      "Schermo"
+    ]
+  },
+  {
+    "word": "Ombrello",
+    "bans": [
+      "Pioggia",
+      "Bagnato",
+      "Aprire",
+      "Nuvole"
+    ]
+  },
+  {
+    "word": "Orologio",
+    "bans": [
+      "Ora",
+      "Polso",
+      "Lancette",
+      "Tempo"
+    ]
+  },
+  {
+    "word": "Libro",
+    "bans": [
+      "Leggere",
+      "Pagine",
+      "Copertina",
+      "Scrivere"
+    ]
+  },
+  {
+    "word": "Occhiali",
+    "bans": [
+      "Vedere",
+      "Lenti",
+      "Montatura",
+      "Sole"
+    ]
+  },
+  {
+    "word": "Bicicletta",
+    "bans": [
+      "Pedali",
+      "Ruote",
+      "Catena",
+      "Sellino"
+    ]
+  },
+  {
+    "word": "Chitarra",
+    "bans": [
+      "Corde",
+      "Musica",
+      "Suonare",
+      "Strumento"
+    ]
+  },
+  {
+    "word": "Zaino",
+    "bans": [
+      "Scuola",
+      "Spalle",
+      "Libri",
+      "Viaggio"
+    ]
+  },
+  {
+    "word": "Lampada",
+    "bans": [
+      "Luce",
+      "Tavolo",
+      "Accendere",
+      "Lampadina"
+    ]
+  },
+  {
+    "word": "Chiavi",
+    "bans": [
+      "Porta",
+      "Aprire",
+      "Serratura",
+      "Mazzo"
+    ]
+  }
+]

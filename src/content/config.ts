@@ -1,9 +1,10 @@
+import type { Locale } from "@/i18n/i18n.context";
 import { z } from "zod";
 
 export interface CollectionConfig<S extends z.ZodTypeAny, T = z.infer<S>> {
   loader: Record<string, any>;
   schema: S;
-  transform?: (data: z.infer<S>, id: string) => T;
+  transform?: (data: z.infer<S>, id: string, lang?: Locale) => T;
 }
 
 export function defineCollection<S extends z.ZodTypeAny, T = z.infer<S>>(
@@ -14,12 +15,15 @@ export function defineCollection<S extends z.ZodTypeAny, T = z.infer<S>>(
   // Process entries once at startup (Vite build/Runtime)
   const entries: T[] = Object.entries(loader).flatMap(
     ([path, module]: [string, any]) => {
-      const id = path.split("/").pop()?.replace(".json", "") ?? "unknown";
+      // path example: /src/content/cardPacks/it/animals.json
+      const parts = path.split("/");
+      const fileName = parts.pop()?.replace(".json", "") ?? "unknown";
+      const lang = parts.pop() as Locale | undefined;
+
       const rawData = schema.parse(module.default);
-      return transform ? transform(rawData, id) : (rawData as T);
+      return transform ? transform(rawData, fileName, lang) : (rawData as T);
     },
   );
-
   // Create a Map for instant lookups by ID
   const entryMap = new Map<string, T>(
     entries.map((entry: any) => [entry.id || "default", entry]),

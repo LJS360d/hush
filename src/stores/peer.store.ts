@@ -1,4 +1,6 @@
-import { persistentAtom, persistentMap } from "@nanostores/persistent";
+import { collections } from "@/content/collections";
+import type { Locale } from "@/i18n/i18n.context";
+import { persistentAtom } from "@nanostores/persistent";
 import { atom, map } from "nanostores";
 import Peer, { type DataConnection } from "peerjs";
 
@@ -12,11 +14,12 @@ export interface Player {
 }
 
 export interface RoomSettings {
-  rounds: number;
+  rounds: number; // reserved for future use
   timer: number;
   maxPlayers: number;
-  teams: boolean;
-  cardPack: string;
+  teams: boolean; // reserved for future use
+  language: Locale;
+  cardPacks: string[];
   modifiers: boolean;
   [x: string]: any;
 }
@@ -76,14 +79,22 @@ export const $reconnectionRoomId = persistentAtom<string>(
 );
 
 export const $peer = atom<Peer | null>(null);
-export const $settings = persistentMap<RoomSettings>("room-settings", {
-  rounds: 3,
-  timer: 60,
-  maxPlayers: 12,
-  teams: false,
-  cardPack: "default",
-  modifiers: false,
-});
+export const $settings = persistentAtom<RoomSettings>(
+  "room-settings",
+  {
+    rounds: 0, // reserved for future use
+    timer: 60,
+    maxPlayers: 12,
+    teams: false, // reserved for future use
+    language: "it",
+    cardPacks: [],
+    modifiers: false,
+  },
+  {
+    encode: (value) => JSON.stringify(value),
+    decode: (value) => JSON.parse(value),
+  },
+);
 
 export const $connections = atom<DataConnection[]>([]);
 export const $connectionError = atom<string | null>(null);
@@ -137,24 +148,25 @@ export function initPeer(roomId?: string): Promise<Peer> {
     }
 
     const newPeer = new Peer(peerId, {
+      debug: import.meta.env.DEV ? 3 : 0,
       config: {
         iceServers: [
           // STUN servers
           { urls: "stun:stun.l.google.com:19302" },
-          { urls: "stun:stun1.l.google.com:19302" },
-          { urls: "stun:stun2.l.google.com:19302" },
-          { urls: "stun:global.stun.twilio.com:3478" },
+          // { urls: "stun:stun1.l.google.com:19302" },
+          // { urls: "stun:stun2.l.google.com:19302" },
+          // { urls: "stun:global.stun.twilio.com:3478" },
 
           // TURN servers
-          {
-            urls: "turn:openrelay.metered.ca:80",
-            username: "openrelayproject",
-            password: "openrelayproject",
-          },
+          // {
+          //   urls: "turn:openrelay.metered.ca:80",
+          //   username: "openrelayproject",
+          //   credential: "openrelayproject",
+          // },
           {
             urls: "turn:openrelay.metered.ca:443",
             username: "openrelayproject",
-            password: "openrelayproject",
+            credential: "openrelayproject",
           },
         ],
         // Forces the browser to gather all potential connection paths quickly
@@ -238,17 +250,29 @@ export function addChatMessage(message: ChatMessage) {
   }
 }
 
-export function loadCardPack(cards: Card[], modifiers: GameModifier[] = []) {
-  const shuffled = [...cards].sort(() => Math.random() - 0.5);
+// Update loadCardPack to accept multiple packs
+export function loadSelectedPacks() {
+  const settings = $settings.get();
+  const allPacks = collections.cardPacks
+    .all()
+    .filter((p) => p.lang === settings.language);
+
+  // If no specific packs selected, use all for that language
+  const selected =
+    settings.cardPacks.length > 0
+      ? allPacks.filter((p) => settings.cardPacks.includes(p.id))
+      : allPacks;
+
+  const allCards = selected.flatMap((p) => p.data);
+  const shuffled = [...allCards].sort(() => Math.random() - 0.5);
+
   const state = $gameState.get();
   syncGameState({
     ...state,
     deck: shuffled,
     usedCards: [],
-    modifiers: modifiers,
   });
   $cardsLoaded.set(true);
-  console.log("Card pack loaded:", shuffled.length, "cards");
 }
 
 export function startGame() {
