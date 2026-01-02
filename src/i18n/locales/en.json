@@ -94,6 +94,13 @@
         "sports": "Sports",
         "music": "Music",
         "objects": "Objects",
+        "materials": "Materials",
+        "nature": "Nature",
+        "professions": "Professions",
+        "skills": "Skills",
+        "tools": "Tools",
+        "vehicles": "Vehicles",
+        "weather": "Weather",
         "custom": "Custom"
       }
     },

@@ -1,0 +1,38 @@
+[
+  {
+    "word": "Pioggia",
+    "bans": ["Acqua", "Nuvole", "Cadere", "Bagnato", "Temporale"]
+  },
+  {
+    "word": "Neve",
+    "bans": ["Freddo", "Bianco", "Fiocchi", "Inverno", "Ghiaccio"]
+  },
+  {
+    "word": "Grandine",
+    "bans": ["Ghiaccio", "Chicchi", "Tempesta", "Danni", "Cadere"]
+  },
+  {
+    "word": "Vento",
+    "bans": ["Aria", "Soffiare", "Forte", "Raffiche", "Corrente"]
+  },
+  {
+    "word": "Tempesta",
+    "bans": ["Fulmini", "Tuoni", "Pioggia", "Violenta", "Nubi"]
+  },
+  {
+    "word": "Nebbia",
+    "bans": ["Visibilità", "Grigio", "Umidità", "Strade", "Densa"]
+  },
+  {
+    "word": "Uragano",
+    "bans": ["Vento", "Distruzione", "Oceano", "Ciclone", "Forza"]
+  },
+  {
+    "word": "Tornado",
+    "bans": ["Vortice", "Distruzione", "Rotazione", "Violento", "Colonna"]
+  },
+  {
+    "word": "Siccità",
+    "bans": ["Secco", "Acqua", "Caldo", "Crisi", "Terra"]
+  }
+]

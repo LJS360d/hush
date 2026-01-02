@@ -1,0 +1,46 @@
+[
+  {
+    "word": "Acciaio",
+    "bans": ["Ferro", "Lega", "Resistente", "Metallo", "Industria"]
+  },
+  {
+    "word": "Alluminio",
+    "bans": ["Leggero", "Metallo", "Lega", "Argento", "Industria"]
+  },
+  {
+    "word": "Rame",
+    "bans": ["Elettricità", "Conduttore", "Metallo", "Cavi", "Rosso"]
+  },
+  {
+    "word": "Plastica",
+    "bans": ["Sintetico", "Polimero", "Leggero", "Stampo", "Industria"]
+  },
+  {
+    "word": "Vetro",
+    "bans": ["Trasparente", "Fragile", "Silicio", "Finestra", "Rompere"]
+  },
+  {
+    "word": "Cemento",
+    "bans": ["Costruzione", "Polvere", "Indurire", "Muro", "Calcestruzzo"]
+  },
+  {
+    "word": "Legno",
+    "bans": ["Albero", "Tagliare", "Naturale", "Tavola", "Foresta"]
+  },
+  {
+    "word": "Carbonio",
+    "bans": ["Fibra", "Leggero", "Resistente", "Composito", "Nero"]
+  },
+  {
+    "word": "Titanio",
+    "bans": ["Lega", "Resistente", "Leggero", "Metallo", "Aerospace"]
+  },
+  {
+    "word": "Ceramica",
+    "bans": ["Fragile", "Calore", "Forno", "Isolante", "Duro"]
+  },
+  {
+    "word": "Gomma",
+    "bans": ["Elastico", "Ruote", "Nero", "Flessibile", "Industria"]
+  }
+]

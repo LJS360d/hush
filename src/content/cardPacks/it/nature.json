@@ -1,0 +1,194 @@
+[
+  {
+    "word": "Sole",
+    "bans": ["Caldo", "Luce", "Stella", "Giorno", "Cielo"]
+  },
+  {
+    "word": "Luna",
+    "bans": ["Notte", "Fasi", "Bianca", "Cielo", "Orbita"]
+  },
+  {
+    "word": "Stella",
+    "bans": ["Spazio", "Luce", "Cielo", "Notte", "Galassia"]
+  },
+  {
+    "word": "Cielo",
+    "bans": ["Blu", "Nuvole", "Alto", "Aria", "Orizzonte"]
+  },
+  {
+    "word": "Nuvola",
+    "bans": ["Bianca", "Pioggia", "Cielo", "Soffice", "Vapore"]
+  },
+  {
+    "word": "Pioggia",
+    "bans": ["Acqua", "Cadere", "Nuvole", "Ombrello", "Bagnato"]
+  },
+  {
+    "word": "Neve",
+    "bans": ["Freddo", "Bianco", "Fiocchi", "Inverno", "Ghiaccio"]
+  },
+  {
+    "word": "Ghiaccio",
+    "bans": ["Freddo", "Solido", "Scivolare", "Acqua", "Inverno"]
+  },
+  {
+    "word": "Vento",
+    "bans": ["Soffiare", "Aria", "Muovere", "Forte", "Leggero"]
+  },
+  {
+    "word": "Tempesta",
+    "bans": ["Fulmini", "Tuoni", "Vento", "Pioggia", "Caos"]
+  },
+  {
+    "word": "Fulmine",
+    "bans": ["Lampo", "Elettricità", "Tempesta", "Cielo", "Rumore"]
+  },
+  {
+    "word": "Tuono",
+    "bans": ["Rumore", "Tempesta", "Cielo", "Forte", "Eco"]
+  },
+  {
+    "word": "Arcobaleno",
+    "bans": ["Colori", "Pioggia", "Sole", "Cielo", "Sette"]
+  },
+  {
+    "word": "Albero",
+    "bans": ["Tronco", "Foglie", "Rami", "Bosco", "Crescere"]
+  },
+  {
+    "word": "Foglia",
+    "bans": ["Verde", "Albero", "Autunno", "Cadere", "Clorofilla"]
+  },
+  {
+    "word": "Fiore",
+    "bans": ["Petali", "Profumo", "Colori", "Sbocciare", "Stelo"]
+  },
+  {
+    "word": "Erba",
+    "bans": ["Verde", "Prato", "Tagliare", "Crescere", "Terra"]
+  },
+  {
+    "word": "Prato",
+    "bans": ["Erba", "Verde", "Spazio", "Campo", "Aperto"]
+  },
+  {
+    "word": "Bosco",
+    "bans": ["Alberi", "Ombra", "Sentieri", "Animali", "Silenzio"]
+  },
+  {
+    "word": "Foresta",
+    "bans": ["Densa", "Alberi", "Natura", "Ombra", "Estesa"]
+  },
+  {
+    "word": "Montagna",
+    "bans": ["Vetta", "Altezza", "Roccia", "Freddo", "Scalare"]
+  },
+  {
+    "word": "Collina",
+    "bans": ["Dolce", "Verde", "Salire", "Paesaggio", "Campagna"]
+  },
+  {
+    "word": "Valle",
+    "bans": ["Tra", "Monti", "Verde", "Fiume", "Bassa"]
+  },
+  {
+    "word": "Pianura",
+    "bans": ["Piatta", "Ampia", "Campi", "Agricoltura", "Orizzonte"]
+  },
+  {
+    "word": "Deserto",
+    "bans": ["Sabbia", "Caldo", "Arido", "Oasi", "Vuoto"]
+  },
+  {
+    "word": "Oasi",
+    "bans": ["Acqua", "Deserto", "Verde", "Palme", "Vita"]
+  },
+  {
+    "word": "Fiume",
+    "bans": ["Corrente", "Acqua", "Scorrere", "Letto", "Rive"]
+  },
+  {
+    "word": "Torrente",
+    "bans": ["Veloce", "Montagna", "Acqua", "Rumore", "Sassi"]
+  },
+  {
+    "word": "Cascata",
+    "bans": ["Cadere", "Acqua", "Altezza", "Rumore", "Spruzzi"]
+  },
+  {
+    "word": "Lago",
+    "bans": ["Calma", "Acqua", "Riva", "Specchio", "Pesci"]
+  },
+  {
+    "word": "Mare",
+    "bans": ["Salato", "Onde", "Spiaggia", "Orizzonte", "Blu"]
+  },
+  {
+    "word": "Oceano",
+    "bans": ["Immenso", "Profondo", "Acqua", "Onde", "Mondo"]
+  },
+  {
+    "word": "Spiaggia",
+    "bans": ["Sabbia", "Mare", "Sole", "Onde", "Ombrellone"]
+  },
+  {
+    "word": "Scogliera",
+    "bans": ["Rocce", "Mare", "Ripida", "Onde", "Costa"]
+  },
+  {
+    "word": "Isola",
+    "bans": ["Circondata", "Mare", "Terra", "Spiagge", "Isolata"]
+  },
+  {
+    "word": "Penisola",
+    "bans": ["Terra", "Mare", "Costa", "Geografia", "Confini"]
+  },
+  {
+    "word": "Vulcano",
+    "bans": ["Lava", "Eruzione", "Magma", "Fumo", "Montagna"]
+  },
+  {
+    "word": "Cratere",
+    "bans": ["Vulcano", "Apertura", "Lava", "Profondo", "Bordo"]
+  },
+  {
+    "word": "Roccia",
+    "bans": ["Dura", "Pietra", "Montagna", "Minerale", "Solida"]
+  },
+  {
+    "word": "Sabbia",
+    "bans": ["Granelli", "Spiaggia", "Deserto", "Fine", "Gialla"]
+  },
+  {
+    "word": "Terra",
+    "bans": ["Suolo", "Piantare", "Mondo", "Solida", "Fertile"]
+  },
+  {
+    "word": "Fango",
+    "bans": ["Bagnato", "Sporco", "Terra", "Viscoso", "Scivolare"]
+  },
+  {
+    "word": "Muscolo",
+    "bans": ["Verde", "Umido", "Rocce", "Foresta", "Crescere"]
+  },
+  {
+    "word": "Alghe",
+    "bans": ["Mare", "Verdi", "Acqua", "Scivolose", "Piante"]
+  },
+  {
+    "word": "Corallo",
+    "bans": ["Barriera", "Mare", "Colorato", "Fragile", "Vivo"]
+  },
+  {
+    "word": "Clima",
+    "bans": ["Temperatura", "Meteo", "Condizioni", "Stagioni", "Ambiente"]
+  },
+  {
+    "word": "Stagione",
+    "bans": ["Anno", "Ciclo", "Tempo", "Clima", "Periodo"]
+  },
+  {
+    "word": "Inverno",
+    "bans": ["Freddo", "Neve", "Ghiaccio", "Cappotto", "Buio"]
+  }
+]

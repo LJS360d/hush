@@ -2,91 +2,471 @@
   {
     "word": "Telefono",
     "bans": [
+      "Schermo",
       "Chiamare",
-      "Cellulare",
+      "App",
       "Messaggio",
-      "Schermo"
-    ]
-  },
-  {
-    "word": "Ombrello",
-    "bans": [
-      "Pioggia",
-      "Bagnato",
-      "Aprire",
-      "Nuvole"
+      "Cellulare"
     ]
   },
   {
     "word": "Orologio",
     "bans": [
-      "Ora",
-      "Polso",
+      "Tempo",
       "Lancette",
-      "Tempo"
+      "Polso",
+      "Ora",
+      "Secondi"
     ]
   },
   {
-    "word": "Libro",
+    "word": "Chiavi",
     "bans": [
-      "Leggere",
-      "Pagine",
-      "Copertina",
-      "Scrivere"
-    ]
-  },
-  {
-    "word": "Occhiali",
-    "bans": [
-      "Vedere",
-      "Lenti",
-      "Montatura",
-      "Sole"
-    ]
-  },
-  {
-    "word": "Bicicletta",
-    "bans": [
-      "Pedali",
-      "Ruote",
-      "Catena",
-      "Sellino"
-    ]
-  },
-  {
-    "word": "Chitarra",
-    "bans": [
-      "Corde",
-      "Musica",
-      "Suonare",
-      "Strumento"
+      "Serratura",
+      "Porta",
+      "Aprire",
+      "Casa",
+      "Auto"
     ]
   },
   {
     "word": "Zaino",
     "bans": [
-      "Scuola",
       "Spalle",
-      "Libri",
-      "Viaggio"
+      "Borsa",
+      "Viaggio",
+      "Cerniera",
+      "Contenere"
     ]
   },
   {
     "word": "Lampada",
     "bans": [
       "Luce",
-      "Tavolo",
+      "Lampadina",
       "Accendere",
-      "Lampadina"
+      "Tavolo",
+      "Filo"
     ]
   },
   {
-    "word": "Chiavi",
+    "word": "Sedia",
     "bans": [
-      "Porta",
+      "Sedersi",
+      "Gambe",
+      "Schienale",
+      "Legno",
+      "Tavolo"
+    ]
+  },
+  {
+    "word": "Tavolo",
+    "bans": [
+      "Piano",
+      "Gambe",
+      "Mangiare",
+      "Legno",
+      "Sala"
+    ]
+  },
+  {
+    "word": "Specchio",
+    "bans": [
+      "Riflesso",
+      "Vetro",
+      "Immagine",
+      "Guardarsi",
+      "Bagno"
+    ]
+  },
+  {
+    "word": "Forbici",
+    "bans": [
+      "Tagliare",
+      "Lame",
+      "Carta",
+      "Mani",
+      "Acciaio"
+    ]
+  },
+  {
+    "word": "Cuscino",
+    "bans": [
+      "Morbido",
+      "Letto",
+      "Dormire",
+      "Testa",
+      "Notte"
+    ]
+  },
+  {
+    "word": "Coperta",
+    "bans": [
+      "Caldo",
+      "Letto",
+      "Inverno",
+      "Avvolgere",
+      "Tessuto"
+    ]
+  },
+  {
+    "word": "Valigia",
+    "bans": [
+      "Viaggio",
+      "Vestiti",
+      "Partenza",
+      "Aereo",
+      "Ruote"
+    ]
+  },
+  {
+    "word": "Portafoglio",
+    "bans": [
+      "Soldi",
+      "Carte",
+      "Pelle",
+      "Tasca",
+      "Documenti"
+    ]
+  },
+  {
+    "word": "Occhiali",
+    "bans": [
+      "Vista",
+      "Lenti",
+      "Montatura",
+      "Occhi",
+      "Vedere"
+    ]
+  },
+  {
+    "word": "Candela",
+    "bans": [
+      "Cera",
+      "Fiamma",
+      "Stoppino",
+      "Luce",
+      "Bruciare"
+    ]
+  },
+  {
+    "word": "Bottiglia",
+    "bans": [
+      "Vetro",
+      "Tappo",
+      "Liquido",
+      "Bere",
+      "Aprire"
+    ]
+  },
+  {
+    "word": "Bicchiere",
+    "bans": [
+      "Bere",
+      "Vetro",
+      "Liquido",
+      "Tavolo",
+      "Riempire"
+    ]
+  },
+  {
+    "word": "Piattino",
+    "bans": [
+      "Cucina",
+      "Cibo",
+      "Ceramica",
+      "Servire",
+      "Tavola"
+    ]
+  },
+  {
+    "word": "Frigorifero",
+    "bans": [
+      "Freddo",
+      "Cibo",
+      "Cucina",
       "Aprire",
-      "Serratura",
-      "Mazzo"
+      "Conservare"
+    ]
+  },
+  {
+    "word": "Forno",
+    "bans": [
+      "Caldo",
+      "Cucinare",
+      "Cottura",
+      "Sportello",
+      "Temperatura"
+    ]
+  },
+  {
+    "word": "Televisione",
+    "bans": [
+      "Schermo",
+      "Canali",
+      "Guardare",
+      "Telecomando",
+      "Programmi"
+    ]
+  },
+  {
+    "word": "Computer",
+    "bans": [
+      "Schermo",
+      "Tastiera",
+      "Mouse",
+      "Software",
+      "Accendere"
+    ]
+  },
+  {
+    "word": "Mouse",
+    "bans": [
+      "Click",
+      "Computer",
+      "Puntatore",
+      "USB",
+      "Mano"
+    ]
+  },
+  {
+    "word": "Tastiera",
+    "bans": [
+      "Tasti",
+      "Scrivere",
+      "Computer",
+      "Digitare",
+      "Lettere"
+    ]
+  },
+  {
+    "word": "Router",
+    "bans": [
+      "Internet",
+      "Rete",
+      "WiFi",
+      "Connessione",
+      "Cavo"
+    ]
+  },
+  {
+    "word": "Caricatore",
+    "bans": [
+      "Batteria",
+      "Cavo",
+      "Elettricità",
+      "Ricarica",
+      "Presa"
+    ]
+  },
+  {
+    "word": "Aspirapolvere",
+    "bans": [
+      "Pulire",
+      "Polvere",
+      "Rumore",
+      "Casa",
+      "Cavo"
+    ]
+  },
+  {
+    "word": "Scopa",
+    "bans": [
+      "Pulire",
+      "Pavimento",
+      "Sporco",
+      "Manico",
+      "Casa"
+    ]
+  },
+  {
+    "word": "Mocio",
+    "bans": [
+      "Acqua",
+      "Pulire",
+      "Pavimento",
+      "Strizzare",
+      "Secchio"
+    ]
+  },
+  {
+    "word": "Secchio",
+    "bans": [
+      "Acqua",
+      "Pulizia",
+      "Plastica",
+      "Trasportare",
+      "Manico"
+    ]
+  },
+  {
+    "word": "Asciugamano",
+    "bans": [
+      "Asciugare",
+      "Bagno",
+      "Tessuto",
+      "Doccia",
+      "Acqua"
+    ]
+  },
+  {
+    "word": "Sapone",
+    "bans": [
+      "Lavare",
+      "Schiuma",
+      "Profumo",
+      "Mani",
+      "Bagno"
+    ]
+  },
+  {
+    "word": "Spazzolino",
+    "bans": [
+      "Denti",
+      "Igiene",
+      "Bagno",
+      "Dentifricio",
+      "Lavare"
+    ]
+  },
+  {
+    "word": "Dentifricio",
+    "bans": [
+      "Denti",
+      "Pasta",
+      "Igiene",
+      "Tubo",
+      "Menta"
+    ]
+  },
+  {
+    "word": "Pettine",
+    "bans": [
+      "Capelli",
+      "Districare",
+      "Plastica",
+      "Testa",
+      "Acconciare"
+    ]
+  },
+  {
+    "word": "Spazzola",
+    "bans": [
+      "Capelli",
+      "Setole",
+      "Pettinare",
+      "Manico",
+      "Testa"
+    ]
+  },
+  {
+    "word": "Rasoio",
+    "bans": [
+      "Barba",
+      "Tagliare",
+      "Lama",
+      "Viso",
+      "Pelle"
+    ]
+  },
+  {
+    "word": "Ferro",
+    "bans": [
+      "Stirare",
+      "Caldo",
+      "Vestiti",
+      "Vapore",
+      "Presa"
+    ]
+  },
+  {
+    "word": "Stendino",
+    "bans": [
+      "Asciugare",
+      "Panni",
+      "Aperto",
+      "Balcone",
+      "Ganci"
+    ]
+  },
+  {
+    "word": "Armadio",
+    "bans": [
+      "Vestiti",
+      "Ante",
+      "Riporre",
+      "Camera",
+      "Legno"
+    ]
+  },
+  {
+    "word": "Comodino",
+    "bans": [
+      "Letto",
+      "Cassetto",
+      "Lampada",
+      "Notte",
+      "Camera"
+    ]
+  },
+  {
+    "word": "Cassetto",
+    "bans": [
+      "Aprire",
+      "Chiudere",
+      "Riporre",
+      "Mobile",
+      "Maniglia"
+    ]
+  },
+  {
+    "word": "Calendario",
+    "bans": [
+      "Giorni",
+      "Mesi",
+      "Anno",
+      "Appendere",
+      "Data"
+    ]
+  },
+  {
+    "word": "Quadro",
+    "bans": [
+      "Parete",
+      "Arte",
+      "Cornice",
+      "Appendere",
+      "Immagine"
+    ]
+  },
+  {
+    "word": "Cornice",
+    "bans": [
+      "Foto",
+      "Quadro",
+      "Bordo",
+      "Legno",
+      "Vetro"
+    ]
+  },
+  {
+    "word": "Fotografia",
+    "bans": [
+      "Immagine",
+      "Scatto",
+      "Ricordo",
+      "Stampare",
+      "Camera"
+    ]
+  },
+  {
+    "word": "Telecomando",
+    "bans": [
+      "Pulsanti",
+      "TV",
+      "Canali",
+      "Batterie",
+      "Premere"
     ]
   }
 ]

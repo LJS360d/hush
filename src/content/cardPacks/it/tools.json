@@ -1,0 +1,58 @@
+[
+  {
+    "word": "Martello",
+    "bans": ["Chiodo", "Colpire", "Legno", "Acciaio", "Attrezzo"]
+  },
+  {
+    "word": "Cacciavite",
+    "bans": ["Vite", "Girare", "Punta", "Avvitare", "Attrezzo"]
+  },
+  {
+    "word": "Trapano",
+    "bans": ["Forare", "Punta", "Elettrico", "Muro", "Bucare"]
+  },
+  {
+    "word": "Sega",
+    "bans": ["Tagliare", "Legno", "Lama", "Denti", "Manuale"]
+  },
+  {
+    "word": "Pinza",
+    "bans": ["Stringere", "Metallo", "Presa", "Mano", "Attrezzo"]
+  },
+  {
+    "word": "Livella",
+    "bans": ["Bolla", "Dritto", "Orizzontale", "Misurare", "Linea"]
+  },
+  {
+    "word": "Metro",
+    "bans": ["Misura", "Centimetri", "Lunghezza", "Nastro", "Righello"]
+  },
+  {
+    "word": "Scalpello",
+    "bans": ["Legno", "Intaglio", "Colpire", "Lama", "Arte"]
+  },
+  {
+    "word": "Morsa",
+    "bans": ["Bloccare", "Stringere", "Banco", "Metallo", "Fermo"]
+  },
+  {
+    "word": "Saldatore",
+    "bans": ["Stagno", "Calore", "Elettronica", "Filo", "Punta"]
+  },
+  {
+    "word": "Chiave",
+    "bans": ["Bullone", "Stringere", "Metallo", "Inglese", "Dado"]
+  },
+  {
+    "word": "Flessibile",
+    "bans": ["Tagliare", "Disco", "Scintille", "Metallo", "Elettrico"]
+  },
+  {
+    "word": "Tenaglia",
+    "bans": ["Estrarre", "Chiodi", "Presa", "Metallo", "Forza"]
+  },
+  {
+    "word": "Cazzuola",
+    "bans": ["Malta", "Muro", "Muratore", "Cemento", "Stendere"]
+  }
+]

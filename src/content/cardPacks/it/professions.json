@@ -1,0 +1,194 @@
+[
+  {
+    "word": "Medico",
+    "bans": ["Paziente", "Diagnosi", "Cura", "Ospedale", "Camice"]
+  },
+  {
+    "word": "Infermiere",
+    "bans": ["Assistenza", "Corsia", "Cura", "Turni", "Pazienti"]
+  },
+  {
+    "word": "Chirurgo",
+    "bans": ["Operazione", "Sala", "Taglio", "Precisione", "Bisturi"]
+  },
+  {
+    "word": "Avvocato",
+    "bans": ["Legge", "Tribunale", "Cause", "Difesa", "Clienti"]
+  },
+  {
+    "word": "Giudice",
+    "bans": ["Sentenza", "Aula", "Legge", "Processo", "Decisione"]
+  },
+  {
+    "word": "Ingegnere",
+    "bans": ["Progetto", "Calcoli", "Struttura", "Tecnica", "Sistema"]
+  },
+  {
+    "word": "Architetto",
+    "bans": ["Edificio", "Disegno", "Spazio", "Progetto", "Forma"]
+  },
+  {
+    "word": "Programmatore",
+    "bans": ["Codice", "Software", "Bug", "Logica", "Computer"]
+  },
+  {
+    "word": "Sviluppatore",
+    "bans": ["Applicazioni", "Codice", "Sistemi", "Deploy", "Debug"]
+  },
+  {
+    "word": "Designer",
+    "bans": ["Grafica", "Forma", "Estetica", "Layout", "Progetto"]
+  },
+  {
+    "word": "Analista",
+    "bans": ["Dati", "Studio", "Valutazione", "Modelli", "Decisioni"]
+  },
+  {
+    "word": "Ricercatore",
+    "bans": ["Scienza", "Studio", "Esperimenti", "Risultati", "Ipotesi"]
+  },
+  {
+    "word": "Professore",
+    "bans": ["Lezioni", "Università", "Studenti", "Esami", "Sapere"]
+  },
+  {
+    "word": "Insegnante",
+    "bans": ["Scuola", "Classe", "Spiegare", "Alunni", "Didattica"]
+  },
+  {
+    "word": "Scrittore",
+    "bans": ["Libri", "Testo", "Parole", "Storie", "Autore"]
+  },
+  {
+    "word": "Giornalista",
+    "bans": ["Notizie", "Articoli", "Cronaca", "Interviste", "Media"]
+  },
+  {
+    "word": "Editore",
+    "bans": ["Pubblicare", "Libri", "Testi", "Mercato", "Autori"]
+  },
+  {
+    "word": "Traduttore",
+    "bans": ["Lingue", "Testo", "Significato", "Versione", "Interpretare"]
+  },
+  {
+    "word": "Interprete",
+    "bans": ["Voce", "Lingue", "Orale", "Mediazione", "Ascolto"]
+  },
+  {
+    "word": "Economista",
+    "bans": ["Mercati", "Teorie", "Modelli", "Crescita", "Analisi"]
+  },
+  {
+    "word": "Contabile",
+    "bans": ["Bilanci", "Numeri", "Conti", "Registri", "Precisione"]
+  },
+  {
+    "word": "Revisore",
+    "bans": ["Controllo", "Bilanci", "Verifica", "Errori", "Norme"]
+  },
+  {
+    "word": "Manager",
+    "bans": ["Gestione", "Decisioni", "Team", "Strategia", "Risorse"]
+  },
+  {
+    "word": "Dirigente",
+    "bans": ["Responsabilità", "Azienda", "Potere", "Scelte", "Guida"]
+  },
+  {
+    "word": "Imprenditore",
+    "bans": ["Rischio", "Azienda", "Investimenti", "Mercato", "Visione"]
+  },
+  {
+    "word": "Consulente",
+    "bans": ["Consigli", "Strategia", "Cliente", "Analisi", "Supporto"]
+  },
+  {
+    "word": "Commercialista",
+    "bans": ["Tasse", "Fisco", "Bilanci", "Contabilità", "Norme"]
+  },
+  {
+    "word": "Bancario",
+    "bans": ["Prestiti", "Conti", "Clienti", "Finanza", "Sportello"]
+  },
+  {
+    "word": "Finanziere",
+    "bans": ["Investimenti", "Mercati", "Capitale", "Rischio", "Rendimenti"]
+  },
+  {
+    "word": "Trader",
+    "bans": ["Borsa", "Azioni", "Volatilità", "Mercati", "Scambi"]
+  },
+  {
+    "word": "Economo",
+    "bans": ["Gestione", "Risorse", "Spese", "Bilancio", "Controllo"]
+  },
+  {
+    "word": "Logistico",
+    "bans": ["Trasporti", "Flussi", "Magazzino", "Ottimizzazione", "Tempi"]
+  },
+  {
+    "word": "Operaio",
+    "bans": ["Produzione", "Fabbrica", "Turni", "Manuale", "Linea"]
+  },
+  {
+    "word": "Artigiano",
+    "bans": ["Manualità", "Creazione", "Tecnica", "Tradizione", "Oggetti"]
+  },
+  {
+    "word": "Meccanico",
+    "bans": ["Motori", "Riparazioni", "Auto", "Officina", "Attrezzi"]
+  },
+  {
+    "word": "Elettricista",
+    "bans": ["Cavi", "Corrente", "Impianti", "Sicurezza", "Luci"]
+  },
+  {
+    "word": "Idraulico",
+    "bans": ["Tubi", "Acqua", "Perdite", "Impianti", "Riparazioni"]
+  },
+  {
+    "word": "Muratore",
+    "bans": ["Mattoni", "Cemento", "Costruzione", "Cantiere", "Muro"]
+  },
+  {
+    "word": "Geometra",
+    "bans": ["Misure", "Terreno", "Progetti", "Confini", "Catasto"]
+  },
+  {
+    "word": "Agronomo",
+    "bans": ["Colture", "Suolo", "Piante", "Produzione", "Terreno"]
+  },
+  {
+    "word": "Biologo",
+    "bans": ["Vita", "Organismi", "Ricerca", "Cellule", "Evoluzione"]
+  },
+  {
+    "word": "Chimico",
+    "bans": ["Reazioni", "Sostanze", "Laboratorio", "Elementi", "Analisi"]
+  },
+  {
+    "word": "Fisico",
+    "bans": ["Leggi", "Energia", "Materia", "Modelli", "Teoria"]
+  },
+  {
+    "word": "Matematico",
+    "bans": ["Numeri", "Dimostrazioni", "Astrazione", "Logica", "Strutture"]
+  },
+  {
+    "word": "Statistico",
+    "bans": ["Probabilità", "Dati", "Distribuzioni", "Campioni", "Inferenza"]
+  },
+  {
+    "word": "Filosofo",
+    "bans": ["Pensiero", "Concetti", "Essere", "Verità", "Domande"]
+  },
+  {
+    "word": "Storico",
+    "bans": ["Passato", "Fonti", "Eventi", "Interpretazione", "Cronologia"]
+  },
+  {
+    "word": "Antropologo",
+    "bans": ["Culture", "Società", "Umani", "Studio", "Origini"]
+  }
+]

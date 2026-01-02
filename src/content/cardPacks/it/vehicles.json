@@ -1,0 +1,54 @@
+[
+  {
+    "word": "Automobile",
+    "bans": ["Ruote", "Motore", "Strada", "Guidare", "Traffico"]
+  },
+  {
+    "word": "Camion",
+    "bans": ["Trasporto", "Carico", "Pesante", "Strada", "Rimorchio"]
+  },
+  {
+    "word": "Motocicletta",
+    "bans": ["Due", "Casco", "Velocità", "Motore", "Strada"]
+  },
+  {
+    "word": "Bicicletta",
+    "bans": ["Pedali", "Catena", "Ruote", "Sella", "Ciclismo"]
+  },
+  {
+    "word": "Autobus",
+    "bans": ["Passeggeri", "Fermata", "Linea", "Pubblico", "Città"]
+  },
+  {
+    "word": "Treno",
+    "bans": ["Binari", "Stazione", "Vagoni", "Ferrovia", "Locomotiva"]
+  },
+  {
+    "word": "Tram",
+    "bans": ["Binari", "Città", "Elettrico", "Linea", "Urbano"]
+  },
+  {
+    "word": "Metropolitana",
+    "bans": ["Sottoterra", "Stazioni", "Linea", "Città", "Treno"]
+  },
+  {
+    "word": "Aereo",
+    "bans": ["Volo", "Ali", "Pilota", "Aeroporto", "Quota"]
+  },
+  {
+    "word": "Elicottero",
+    "bans": ["Rotore", "Verticale", "Volo", "Pilota", "Atterrare"]
+  },
+  {
+    "word": "Nave",
+    "bans": ["Mare", "Porto", "Scafo", "Equipaggio", "Viaggio"]
+  },
+  {
+    "word": "Sottomarino",
+    "bans": ["Acqua", "Profondità", "Silenzio", "Militare", "Immersione"]
+  },
+  {
+    "word": "Trattore",
+    "bans": ["Campi", "Agricoltura", "Lento", "Rimorchio", "Terra"]
+  }
+]

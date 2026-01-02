@@ -1,0 +1,92 @@
+[
+  {
+    "word": "Programmazione",
+    "bans": [
+      "Codice",
+      "Software",
+      "Sviluppo",
+      "Bug",
+      "Computer"
+    ]
+  },
+  {
+    "word": "Saldatura",
+    "bans": [
+      "Metallo",
+      "Calore",
+      "Giunzione",
+      "Stagno",
+      "Fusione"
+    ]
+  },
+  {
+    "word": "Carpenteria",
+    "bans": [
+      "Legno",
+      "Costruzione",
+      "Taglio",
+      "Misura",
+      "Strutture"
+    ]
+  },
+  {
+    "word": "Meccanica",
+    "bans": [
+      "Ingranaggi",
+      "Motori",
+      "Forza",
+      "Movimento",
+      "Macchine"
+    ]
+  },
+  {
+    "word": "Elettronica",
+    "bans": [
+      "Circuiti",
+      "Componenti",
+      "Corrente",
+      "Resistenze",
+      "PCB"
+    ]
+  },
+  {
+    "word": "Idraulica",
+    "bans": [
+      "Tubi",
+      "Acqua",
+      "Pressione",
+      "Valvole",
+      "Scarichi"
+    ]
+  },
+  {
+    "word": "Logistica",
+    "bans": [
+      "Trasporti",
+      "Flussi",
+      "Magazzini",
+      "Supply",
+      "Catena"
+    ]
+  },
+  {
+    "word": "Progettazione",
+    "bans": [
+      "Disegno",
+      "Soluzioni",
+      "Struttura",
+      "Pianificazione",
+      "Modello"
+    ]
+  },
+  {
+    "word": "Diagnostica",
+    "bans": [
+      "Analisi",
+      "Problemi",
+      "Cause",
+      "Test",
+      "Sistema"
+    ]
+  }
+]

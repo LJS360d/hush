@@ -1,11 +1,22 @@
 [
   {
+    "word": "Pizza",
+    "bans": [
+      "Forno",
+      "Mozzarella",
+      "Pomodoro",
+      "Napoli",
+      "Fetta"
+    ]
+  },
+  {
     "word": "Pasta",
     "bans": [
+      "Grano",
       "Sugo",
       "Spaghetti",
-      "Cucinare",
-      "Italia"
+      "Acqua",
+      "Sale"
     ]
   },
   {
@@ -13,80 +24,449 @@
     "bans": [
       "Cono",
       "Freddo",
-      "Dolce",
-      "Pistacchio"
+      "Crema",
+      "Gusto",
+      "Coppetta"
     ]
   },
   {
-    "word": "Pizza",
+    "word": "Lasagna",
     "bans": [
-      "Margherita",
+      "Strati",
+      "Ragù",
       "Forno",
-      "Mozzarella",
-      "Pomodoro"
+      "Besciamella",
+      "Teglia"
+    ]
+  },
+  {
+    "word": "Risotto",
+    "bans": [
+      "Riso",
+      "Brodo",
+      "Mantecare",
+      "Pentola",
+      "Chicchi"
+    ]
+  },
+  {
+    "word": "Polenta",
+    "bans": [
+      "Mais",
+      "Gialla",
+      "Paiolo",
+      "Farina",
+      "Calda"
+    ]
+  },
+  {
+    "word": "Pane",
+    "bans": [
+      "Lievito",
+      "Forno",
+      "Crosta",
+      "Mollica",
+      "Farina"
+    ]
+  },
+  {
+    "word": "Focaccia",
+    "bans": [
+      "Olio",
+      "Sale",
+      "Genova",
+      "Lievito",
+      "Soffice"
+    ]
+  },
+  {
+    "word": "Gnocchi",
+    "bans": [
+      "Patate",
+      "Impasto",
+      "Morbidi",
+      "Farina",
+      "Sugo"
+    ]
+  },
+  {
+    "word": "Pesto",
+    "bans": [
+      "Basilico",
+      "Pinoli",
+      "Mortaio",
+      "Verde",
+      "Genova"
+    ]
+  },
+  {
+    "word": "Panettone",
+    "bans": [
+      "Natale",
+      "Uvetta",
+      "Canditi",
+      "Milano",
+      "Dolce"
+    ]
+  },
+  {
+    "word": "Tiramisù",
+    "bans": [
+      "Mascarpone",
+      "Caffè",
+      "Savoiardi",
+      "Cacao",
+      "Dolce"
+    ]
+  },
+  {
+    "word": "Cannolo",
+    "bans": [
+      "Ricotta",
+      "Cialda",
+      "Sicilia",
+      "Ripieno",
+      "Zucchero"
+    ]
+  },
+  {
+    "word": "Arancino",
+    "bans": [
+      "Riso",
+      "Fritto",
+      "Ripieno",
+      "Sicilia",
+      "Palla"
+    ]
+  },
+  {
+    "word": "Mortadella",
+    "bans": [
+      "Bologna",
+      "Pistacchio",
+      "Salume",
+      "Rosa",
+      "Affettato"
+    ]
+  },
+  {
+    "word": "Prosciutto",
+    "bans": [
+      "Crudo",
+      "Parma",
+      "Maiale",
+      "Stagionato",
+      "Fetta"
     ]
   },
   {
     "word": "Formaggio",
     "bans": [
       "Latte",
-      "Topolino",
+      "Crosta",
       "Stagionato",
+      "Caseificio",
       "Fetta"
-    ]
-  },
-  {
-    "word": "Cioccolato",
-    "bans": [
-      "Fondente",
-      "Nocciole",
-      "Dolce",
-      "Barretta"
-    ]
-  },
-  {
-    "word": "Pane",
-    "bans": [
-      "Forno",
-      "Farina",
-      "Panino",
-      "Lievito"
-    ]
-  },
-  {
-    "word": "Caffè",
-    "bans": [
-      "Espresso",
-      "Moka",
-      "Caffeina",
-      "Tazzina"
     ]
   },
   {
     "word": "Vino",
     "bans": [
       "Uva",
-      "Bicchiere",
-      "Bottiglia",
-      "Alcol"
+      "Cantina",
+      "Rosso",
+      "Bianco",
+      "Bottiglia"
     ]
   },
   {
-    "word": "Sushi",
+    "word": "Olio",
     "bans": [
-      "Pesce",
+      "Oliva",
+      "Extravergine",
+      "Condire",
+      "Frantoio",
+      "Verde"
+    ]
+  },
+  {
+    "word": "Zuppa",
+    "bans": [
+      "Brodo",
+      "Cucchiaio",
+      "Calda",
+      "Pentola",
+      "Verdure"
+    ]
+  },
+  {
+    "word": "Minestra",
+    "bans": [
+      "Liquida",
+      "Piatto",
+      "Calda",
+      "Legumi",
+      "Verdura"
+    ]
+  },
+  {
+    "word": "Bistecca",
+    "bans": [
+      "Carne",
+      "Griglia",
+      "Cottura",
+      "Manzo",
+      "Sangue"
+    ]
+  },
+  {
+    "word": "Salsiccia",
+    "bans": [
+      "Carne",
+      "Maiale",
+      "Griglia",
+      "Spezie",
+      "Cruda"
+    ]
+  },
+  {
+    "word": "Frittata",
+    "bans": [
+      "Uova",
+      "Padella",
+      "Girare",
+      "Olio",
+      "Sale"
+    ]
+  },
+  {
+    "word": "Insalata",
+    "bans": [
+      "Verde",
+      "Cruda",
+      "Olio",
+      "Aceto",
+      "Ciotola"
+    ]
+  },
+  {
+    "word": "Carpaccio",
+    "bans": [
+      "Crudo",
+      "Fettine",
+      "Freddo",
+      "Carne",
+      "Olio"
+    ]
+  },
+  {
+    "word": "Parmigiana",
+    "bans": [
+      "Melanzane",
+      "Strati",
+      "Forno",
+      "Pomodoro",
+      "Formaggio"
+    ]
+  },
+  {
+    "word": "Crostata",
+    "bans": [
+      "Marmellata",
+      "Dolce",
+      "Pasta",
+      "Forno",
+      "Zucchero"
+    ]
+  },
+  {
+    "word": "Brioche",
+    "bans": [
+      "Dolce",
+      "Colazione",
+      "Soffice",
+      "Burro",
+      "Forno"
+    ]
+  },
+  {
+    "word": "Grissini",
+    "bans": [
+      "Secchi",
+      "Torino",
+      "Pane",
+      "Croccanti",
+      "Farina"
+    ]
+  },
+  {
+    "word": "Ciambella",
+    "bans": [
+      "Torta",
+      "Buco",
+      "Dolce",
+      "Zucchero",
+      "Forno"
+    ]
+  },
+  {
+    "word": "Couscous",
+    "bans": [
+      "Grano",
+      "Spezie",
+      "Nordafrica",
+      "Verdure",
+      "Chicchi"
+    ]
+  },
+  {
+    "word": "Paella",
+    "bans": [
       "Riso",
-      "Bacchette",
-      "Giapponese"
+      "Spagna",
+      "Padella",
+      "Zafferano",
+      "Mare"
     ]
   },
   {
     "word": "Hamburger",
     "bans": [
-      "Carne",
       "Panino",
-      "Ketchup",
-      "America"
+      "Carne",
+      "Fastfood",
+      "Griglia",
+      "Salsa"
+    ]
+  },
+  {
+    "word": "Kebab",
+    "bans": [
+      "Carne",
+      "Spiedo",
+      "Pane",
+      "Spezie",
+      "Salsa"
+    ]
+  },
+  {
+    "word": "Sushi",
+    "bans": [
+      "Riso",
+      "Pesce",
+      "Crudo",
+      "Giappone",
+      "Alghe"
+    ]
+  },
+  {
+    "word": "Ramen",
+    "bans": [
+      "Brodo",
+      "Noodles",
+      "Giappone",
+      "Ciotola",
+      "Caldo"
+    ]
+  },
+  {
+    "word": "Tempura",
+    "bans": [
+      "Fritto",
+      "Leggero",
+      "Pastella",
+      "Giappone",
+      "Olio"
+    ]
+  },
+  {
+    "word": "Falafel",
+    "bans": [
+      "Ceci",
+      "Fritto",
+      "Medioriente",
+      "Spezie",
+      "Palla"
+    ]
+  },
+  {
+    "word": "Hummus",
+    "bans": [
+      "Ceci",
+      "Crema",
+      "Sesamo",
+      "Medioriente",
+      "Spalmare"
+    ]
+  },
+  {
+    "word": "Baklava",
+    "bans": [
+      "Dolce",
+      "Miele",
+      "Pistacchio",
+      "Sfoglia",
+      "Zucchero"
+    ]
+  },
+  {
+    "word": "Gulasch",
+    "bans": [
+      "Carne",
+      "Ungheria",
+      "Paprika",
+      "Stufato",
+      "Sugo"
+    ]
+  },
+  {
+    "word": "Wurstel",
+    "bans": [
+      "Salsiccia",
+      "Germania",
+      "Carne",
+      "Pane",
+      "Mostarda"
+    ]
+  },
+  {
+    "word": "Fonduta",
+    "bans": [
+      "Formaggio",
+      "Sciolto",
+      "Pentola",
+      "Pane",
+      "Svizzera"
+    ]
+  },
+  {
+    "word": "Raclette",
+    "bans": [
+      "Formaggio",
+      "Fondere",
+      "Piastra",
+      "Svizzera",
+      "Patate"
+    ]
+  },
+  {
+    "word": "Chili",
+    "bans": [
+      "Piccante",
+      "Fagioli",
+      "Carne",
+      "Spezie",
+      "Messico"
+    ]
+  },
+  {
+    "word": "Tacos",
+    "bans": [
+      "Mais",
+      "Ripieno",
+      "Messico",
+      "Piegare",
+      "Salsa"
     ]
   }
 ]

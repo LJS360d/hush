@@ -1,137 +1,194 @@
 [
   {
-    "word": "Leone",
-    "bans": [
-      "Re",
-      "Giungla",
-      "Felino",
-      "Criniera"
-    ]
-  },
-  {
-    "word": "Elefante",
-    "bans": [
-      "Proboscide",
-      "Grigio",
-      "Zanne",
-      "Orecchie"
-    ]
-  },
-  {
-    "word": "Delfino",
-    "bans": [
-      "Mare",
-      "Intelligente",
-      "Pinna",
-      "Salto"
-    ]
-  },
-  {
-    "word": "Pinguino",
-    "bans": [
-      "Freddo",
-      "Polo",
-      "Uccello",
-      "Ghiaccio"
-    ]
-  },
-  {
-    "word": "Giraffa",
-    "bans": [
-      "Collo",
-      "Alto",
-      "Macchie",
-      "Savana"
-    ]
-  },
-  {
-    "word": "Canguro",
-    "bans": [
-      "Marsupio",
-      "Salto",
-      "Australia",
-      "Coda"
-    ]
-  },
-  {
-    "word": "Squalo",
-    "bans": [
-      "Denti",
-      "Oceano",
-      "Pericoloso",
-      "Pinna"
-    ]
-  },
-  {
-    "word": "Farfalla",
-    "bans": [
-      "Ali",
-      "Insetto",
-      "Bruco",
-      "Colorata"
-    ]
+    "word": "Cane",
+    "bans": ["Abbaiare", "Guinzaglio", "Osso", "Padrone", "Fedeltà"]
   },
   {
     "word": "Gatto",
-    "bans": [
-      "Miao",
-      "Fusa",
-      "Peli",
-      "Domestico"
-    ]
+    "bans": ["Miagolare", "Fusa", "Unghie", "Peli", "Indipendente"]
   },
   {
-    "word": "Cane",
-    "bans": [
-      "Abbaiare",
-      "Osso",
-      "Guinzaglio",
-      "Fedele"
-    ]
+    "word": "Cavallo",
+    "bans": ["Zoccoli", "Sella", "Correre", "Criniera", "Stalla"]
   },
   {
-    "word": "Aquila",
-    "bans": [
-      "Volo",
-      "Rapace",
-      "Becco",
-      "Montagna"
-    ]
+    "word": "Mucca",
+    "bans": ["Latte", "Fattoria", "Muggire", "Ruminante", "Campanaccio"]
   },
   {
-    "word": "Tartaruga",
-    "bans": [
-      "Lenta",
-      "Guscio",
-      "Rettile",
-      "Mare"
-    ]
+    "word": "Pecora",
+    "bans": ["Lana", "Gregge", "Pastore", "Belare", "Prato"]
+  },
+  {
+    "word": "Pappagallo",
+    "bans": ["Amazzonia", "Colori", "Piume", "Uccello", "Becco"]
+  },
+  {
+    "word": "Capra",
+    "bans": ["Corna", "Roccia", "Saltare", "Latte", "Montagna"]
+  },
+  {
+    "word": "Maiale",
+    "bans": ["Fattoria", "Grugno", "Rosa", "Porcile", "Coda"]
+  },
+  {
+    "word": "Gallina",
+    "bans": ["Uova", "Piume", "Cortile", "Chicchirichì", "Becco"]
+  },
+  {
+    "word": "Gallo",
+    "bans": ["Alba", "Cresta", "Canto", "Cortile", "Piume"]
+  },
+  {
+    "word": "Coniglio",
+    "bans": ["Orecchie", "Saltare", "Carota", "Tana", "Morbido"]
+  },
+  {
+    "word": "Topo",
+    "bans": ["Piccolo", "Coda", "Formaggio", "Tana", "Roditore"]
+  },
+  {
+    "word": "Leone",
+    "bans": ["Criniera", "Ruggito", "Savanna", "Predatore", "Re"]
   },
   {
     "word": "Tigre",
-    "bans": [
-      "Strisce",
-      "India",
-      "Cacciatore",
-      "Arancione"
-    ]
+    "bans": ["Strisce", "Felino", "Caccia", "Predatore", "Giungla"]
+  },
+  {
+    "word": "Elefante",
+    "bans": ["Proboscide", "Zanne", "Gigante", "Africa", "Orecchie"]
+  },
+  {
+    "word": "Giraffa",
+    "bans": ["Collo", "Altezza", "Macchie", "Africa", "Foglie"]
+  },
+  {
+    "word": "Zebra",
+    "bans": ["Strisce", "Bianco", "Nero", "Savanna", "Cavallo"]
+  },
+  {
+    "word": "Scimmia",
+    "bans": ["Banana", "Alberi", "Saltare", "Coda", "Primate"]
   },
   {
     "word": "Orso",
-    "bans": [
-      "Letargo",
-      "Miele",
-      "Pelliccia",
-      "Bosco"
-    ]
+    "bans": ["Pelliccia", "Letargo", "Foresta", "Grande", "Miele"]
   },
   {
     "word": "Lupo",
-    "bans": [
-      "Branco",
-      "Luna",
-      "Ululato",
-      "Cappuccetto"
-    ]
+    "bans": ["Branco", "Ululare", "Foresta", "Predatore", "Notte"]
+  },
+  {
+    "word": "Volpe",
+    "bans": ["Astuta", "Coda", "Foresta", "Rossa", "Predatore"]
+  },
+  {
+    "word": "Cervo",
+    "bans": ["Corna", "Bosco", "Elegante", "Erba", "Salto"]
+  },
+  {
+    "word": "Cinghiale",
+    "bans": ["Zanne", "Bosco", "Selvatico", "Fango", "Corsa"]
+  },
+  {
+    "word": "Aquila",
+    "bans": ["Volare", "Artigli", "Vista", "Cielo", "Predatore"]
+  },
+  {
+    "word": "Falco",
+    "bans": ["Caccia", "Ali", "Velocità", "Cielo", "Vista"]
+  },
+  {
+    "word": "Gufo",
+    "bans": ["Notte", "Occhi", "Silenzio", "Ali", "Saggezza"]
+  },
+  {
+    "word": "Corvo",
+    "bans": ["Nero", "Gracchiare", "Ali", "Intelligente", "Cielo"]
+  },
+  {
+    "word": "Passero",
+    "bans": ["Piccolo", "Canto", "Volo", "Città", "Nido"]
+  },
+  {
+    "word": "Colomba",
+    "bans": ["Pasqua", "Pace", "Piccione", "Bianco", "Nido"]
+  },
+  {
+    "word": "Pinguino",
+    "bans": ["Freddo", "Ghiaccio", "Antartide", "Nuotare", "Bianco"]
+  },
+  {
+    "word": "Delfino",
+    "bans": ["Mare", "Nuotare", "Salti", "Intelligente", "Acqua"]
+  },
+  {
+    "word": "Balena",
+    "bans": ["Gigante", "Oceano", "Canto", "Acqua", "Profondo"]
+  },
+  {
+    "word": "Squalo",
+    "bans": ["Denti", "Predatore", "Mare", "Pinne", "Pericolo"]
+  },
+  {
+    "word": "Polpo",
+    "bans": ["Tentacoli", "Mollusco", "Mare", "Inchiostro", "Otto"]
+  },
+  {
+    "word": "Granchio",
+    "bans": ["Chele", "Lato", "Spiaggia", "Guscio", "Mare"]
+  },
+  {
+    "word": "Aragosta",
+    "bans": ["Chele", "Rosso", "Mare", "Crosta", "Costosa"]
+  },
+  {
+    "word": "Medusa",
+    "bans": ["Trasparente", "Puntura", "Mare", "Gelatinosa", "Fluttuare"]
+  },
+  {
+    "word": "Serpente",
+    "bans": ["Strisciare", "Squame", "Veleno", "Lingua", "Sibilo"]
+  },
+  {
+    "word": "Lucertola",
+    "bans": ["Coda", "Sole", "Squame", "Rettile", "Muro"]
+  },
+  {
+    "word": "Coccodrillo",
+    "bans": ["Mascelle", "Fiume", "Rettile", "Predatore", "Denti"]
+  },
+  {
+    "word": "Rana",
+    "bans": ["Saltare", "Stagno", "Gracidare", "Verde", "Anfibio"]
+  },
+  {
+    "word": "Rospo",
+    "bans": ["Verruche", "Lento", "Anfibio", "Notte", "Terra"]
+  },
+  {
+    "word": "Farfalla",
+    "bans": ["Ali", "Colori", "Insetto", "Fiori", "Leggera"]
+  },
+  {
+    "word": "Ape",
+    "bans": ["Miele", "Ronzio", "Fiori", "Puntura", "Alveare"]
+  },
+  {
+    "word": "Formica",
+    "bans": ["Piccola", "Lavoro", "Colonia", "Insetto", "Fila"]
+  },
+  {
+    "word": "Ragno",
+    "bans": ["Rete", "Otto", "Zampe", "Insetto", "Silenzio"]
+  },
+  {
+    "word": "Zanzara",
+    "bans": ["Puntura", "Ronzio", "Fastidio", "Sangue", "Notte"]
+  },
+  {
+    "word": "Mosca",
+    "bans": ["Volare", "Fastidio", "Insetto", "Ronzio", "Cibo"]
   }
 ]
