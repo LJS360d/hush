@@ -91,12 +91,14 @@ const MainLayout: ParentComponent = (props) => {
     if (modalRef) modalRef.close();
   };
 
+  const baseUrl = import.meta.env.BASE_URL;
+
   return (
     <div class="bg-base-100 min-h-screen flex flex-col font-sans">
       <header class="bg-base-200 border-b border-zinc-800 p-4">
         <nav class="max-w-8xl mx-auto flex justify-between items-center">
           <a
-            href="/"
+            href={`/${baseUrl}`}
             class="text-2xl font-black tracking-tighter text-secondary hover:opacity-80 transition"
           >
             HUSH<span class="text-zinc-500 text-sm">.online</span>
